@@ -100,14 +100,10 @@
               <div class="flex-row flex-space-between">
                 <h1>{{project.name | trim}}
                   <!--(bake-start _if="project.github")-->
-                  <a href="{{project.github | trim}}" target="_blank">
-                    <i class="fa fa-github"></i>
-                  </a>
+                  <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
                   <!--(bake-end)-->
                   <!--(bake-start _if="project.link")-->
-                  <a href="{{project.link | trim}}" target="_blank">
-                    <i class="fa fa-globe"></i>
-                  </a>
+                  <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
                   <!--(bake-end)-->
                 </h1>
               </div>

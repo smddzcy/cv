@@ -1,0 +1,4 @@
+node_modules/
+dist/**/*.less.css
+dist/**/*.coffee.js
+index.html

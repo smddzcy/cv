@@ -1,0 +1,45 @@
+section {
+  .description {
+    padding-bottom: 10px;
+    flex: 1 0 100%;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 3px;
+    }
+  }
+
+  p {
+    color: @grey;
+    line-height: 1.3;
+  }
+
+  .location {
+    font-size: 14px;
+  }
+
+  .col-caret {
+    @media screen and (max-width: @screen-sm-max) {
+      display: none;
+    }
+    width: 6%;
+    position: relative;
+    left: 10px;
+  }
+
+  .section-header {
+    display: table;
+    font-size: 24px;
+    border-bottom: 1px @grey dashed;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  .flex-50 > div:first-of-type .section-header {
+    margin-top: 0;
+  }
+}

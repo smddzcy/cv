@@ -1,0 +1,35 @@
+[{
+  "name": "EngelsizMenu",
+  "description": "Accessible, easy-to-use restaurant menu app for blind and visually impaired.",
+  "github": "https://github.com/smddzcy/EngelsizMenu"
+}, {
+  "name": "BounCoursePlanner",
+  "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule, which has the less conflicts and most free hours they want.",
+  "github": "https://github.com/smddzcy/BounCoursePlanner",
+  "link": "http://www.smddzcy.com/BounCoursePlanner/"
+}, {
+  "name": "BUEvents",
+  "description": "Events calendar for Boğaziçi University. It's the only events calendar since there isn't any official one.",
+  "github": "https://github.com/smddzcy/BUEvents",
+  "link": "http://www.smddzcy.com/BUEvents/"
+}, {
+  "name": "WowDoor",
+  "description": "An IoT device that gives the ability to lock &amp; unlock doors with a smartphone.",
+  "github": "https://github.com/smddzcy/WowDoor"
+}, {
+  "name": "BUYemek",
+  "description": "An iOS app for Boğaziçi University's cafeteria. There is also a separate project for its <a href=\"https://github.com/smddzcy/BUYemek\" target=\"_blank\">REST API</a>.",
+  "github": "https://github.com/smddzcy/BUYemek-iOS"
+}, {
+  "name": "dekrypt",
+  "description": "A command-line tool for automatic decryption/decipher of a number of encryption/cipher algorithms.",
+  "github": "https://github.com/smddzcy/dekrypt"
+}, {
+  "name": "IlanTakip",
+  "description": "Automatic tracking system for some real-estate listing sites in Turkey.",
+  "github": "https://github.com/smddzcy/ilanTakip"
+}, {
+  "name": "Scan",
+  "description": "Multi-threaded web directory scanner.",
+  "github": "https://github.com/smddzcy/Scan"
+}]

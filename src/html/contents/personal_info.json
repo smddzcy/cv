@@ -1,0 +1,23 @@
+{
+  "name": "Samed Düzçay",
+  "profession": "Software Engineer",
+  "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development.  A deep researcher and a passionate learner in every aspect of his life, with good communication skills.",
+  "mail": "samedduzcay@gmail.com",
+  "phone": "+905548154272",
+  "address": {
+    "title": "Şişli, Istanbul, TURKEY",
+    "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"
+  },
+  "personal_site": {
+    "title": "smddzcy.com",
+    "url": "http://www.smddzcy.com/"
+  },
+  "github": {
+    "title": "github.com/smddzcy",
+    "url": "github.com/smddzcy"
+  },
+  "linkedin": {
+    "title": "linkedin.com/in/smddzcy",
+    "url": "http://linkedin.com/in/smddzcy"
+  }
+}

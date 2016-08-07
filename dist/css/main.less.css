@@ -299,6 +299,14 @@ section .flex-50 > div:first-of-type .section-header {
   }
 }
 @media print {
+  html {
+    /*
+     Change accordingly, or change paper sizes while saving to PDF / printing
+     to get a one page CV / resume.
+    */
+    min-width: 255mm;
+    min-height: 290mm;
+  }
   .pic {
     max-height: 165px;
   }

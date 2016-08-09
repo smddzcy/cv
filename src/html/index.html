@@ -70,132 +70,143 @@
     </header>
 
     <section class="container">
-      <div class="flex-row flex-space-between">
-        <div class="flex-row flex-start flex-50">
-          <!--(bake _section-header.html title="Work Experience")-->
-          <!--(bake-start _foreach="experience:experiences")-->
-          <div class="description experience">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
-              <div class="flex-row flex-space-between">
+      <div class="flex-row flex-start col-md-6 half-page">
+        <!--(bake _section-header.html title="Work Experience")-->
+        <!--(bake-start _foreach="experience:experiences")-->
+        <div class="description experience">
+          <div class="hidden-sm hidden-xs col-md-1 col-caret">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="col-sm-12 col-md-11">
+            <div class="flex-row flex-space-between">
+              <div class="padding-right-10">
                 <h1>{{experience.role | trim}}</h1>
-                <h6 class="date">{{experience.date | trim}}</h6>
-              </div>
-              <div class="flex-row flex-space-between">
                 <h2>{{experience.company | trim}}</h2>
+              </div>
+              <div class="experience-dateloc">
+                <!--(bake-start _if="experience.date")-->
+                <h6 class="date">{{experience.date | trim}}</h6>
+                <!--(bake-end)-->
+                <!--(bake-start _if="experience.location")-->
                 <h6 class="location">{{experience.location | trim}}</h6>
+                <!--(bake-end)-->
               </div>
-              <p>{{experience.description | trim}}</p>
             </div>
+            <!--(bake-start _if="experience.description")-->
+            <p>{{experience.description | trim}}</p>
+            <!--(bake-end)-->
           </div>
-          <!--(bake-end)-->
-
-          <!--(bake _section-header.html title="Open Source Projects")-->
-          <!--(bake-start _foreach="project:projects")-->
-          <div class="description project">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
-              <div class="flex-row flex-space-between">
-                <h1>{{project.name | trim}}
-                  <!--(bake-start _if="project.github")-->
-                  <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
-                  <!--(bake-end)-->
-                  <!--(bake-start _if="project.link")-->
-                  <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
-                  <!--(bake-end)-->
-                </h1>
-              </div>
-              <p>{{project.description | trim}}</p>
-            </div>
-          </div>
-          <!--(bake-end)-->
         </div>
+        <!--(bake-end)-->
 
-        <div class="flex-row flex-start flex-50">
-          <!--(bake _section-header.html title="Education")-->
-          <!--(bake-start _foreach="school:education")-->
-          <div class="description education">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
+        <!--(bake _section-header.html title="Open Source Projects")-->
+        <!--(bake-start _foreach="project:projects")-->
+        <div class="description project">
+          <div class="hidden-sm hidden-xs col-md-1 col-caret">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="col-sm-12 col-md-11">
+            <div class="flex-row flex-space-between">
+              <h1>{{project.name | trim}}
+                <!--(bake-start _if="project.github")-->
+                <a href="{{project.github | trim}}" target="_blank"><i class="fa fa-github"></i></a>
+                <!--(bake-end)-->
+                <!--(bake-start _if="project.link")-->
+                <a href="{{project.link | trim}}" target="_blank"><i class="fa fa-globe"></i></a>
+                <!--(bake-end)-->
+              </h1>
             </div>
-            <div class="col-sm-12 col-md-11">
-              <div class="flex-row flex-space-between">
+            <p>{{project.description | trim}}</p>
+          </div>
+        </div>
+        <!--(bake-end)-->
+      </div>
+
+      <div class="flex-row flex-start col-md-6 half-page">
+        <!--(bake _section-header.html title="Education")-->
+        <!--(bake-start _foreach="school:education")-->
+        <div class="description education">
+          <div class="hidden-sm hidden-xs col-md-1 col-caret">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="col-sm-12 col-md-11">
+            <div class="flex-row flex-space-between">
+              <div class="padding-right-10">
                 <h1>{{school.degree | trim}}</h1>
-                <h6 class="date">{{school.date | trim}}</h6>
+                <h2>{{school.name | trim}}</h2>
               </div>
-              <h2>{{school.name | trim}}</h2>
-              <p>{{school.description | trim}}</p>
-            </div>
-          </div>
-          <!--(bake-end)-->
-
-          <!--(bake _section-header.html title="Skills")-->
-          <div class="description skills">
-            <div class="col-md-12 flex-row flex-space-between">
-              <ul>
-                <!--(bake-start _foreach="skill:skills")-->
-                <li>{{skill | trim}}</li>
-                <!--(bake-end)-->
-              </ul>
-            </div>
-          </div>
-
-          <!--(bake _section-header.html title="Certificates")-->
-          <!--(bake-start _foreach="certificate:certificates")-->
-          <div class="description certificate">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
-              <div class="flex-row flex-space-between">
-                <h1>{{certificate.title | trim}}</h1>
-                <!--(bake-start _if="certificate.date")-->
-                <h6 class="date">{{certificate.date | trim}}</h6>
-                <!--(bake-end)-->
-              </div>
-              <h2>{{certificate.authority | trim}}</h2>
-              <!--(bake-start _if="certificate.description")-->
-              <p>{{certificate.description | trim}}</p>
+              <!--(bake-start _if="school.date")-->
+              <h6 class="date">{{school.date | trim}}</h6>
               <!--(bake-end)-->
             </div>
+            <!--(bake-start _if="school.description")-->
+            <p>{{school.description | trim}}</p>
+            <!--(bake-end)-->
           </div>
-          <!--(bake-end)-->
+        </div>
+        <!--(bake-end)-->
 
-          <!--(bake _section-header.html title="Honors & Awards")-->
-          <div class="description honors">
-            <div class="col-md-12 flex-row flex-space-between">
-              <ul>
-                <!--(bake-start _foreach="honor:honors")-->
-                <div class="flex-row flex-space-between">
-                  <li>
-                    {{honor.title | trim}}
-                  </li>
-                  <span>{{honor.date | trim}}</span>
-                </div>
-                <!--(bake-end)-->
-              </ul>
+        <!--(bake _section-header.html title="Skills")-->
+        <div class="description skills">
+          <div class="col-md-12 flex-row flex-space-between">
+            <ul>
+              <!--(bake-start _foreach="skill:skills")-->
+              <li>{{skill | trim}}</li>
+              <!--(bake-end)-->
+            </ul>
+          </div>
+        </div>
+
+        <!--(bake _section-header.html title="Certificates")-->
+        <!--(bake-start _foreach="certificate:certificates")-->
+        <div class="description certificate">
+          <div class="hidden-sm hidden-xs col-md-1 col-caret">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="col-sm-12 col-md-11">
+            <div class="flex-row flex-space-between">
+              <div>
+                <h1>{{certificate.title | trim}}</h1>
+                <h2>{{certificate.authority | trim}}</h2>
+              </div>
+              <!--(bake-start _if="certificate.date")-->
+              <h6 class="date">{{certificate.date | trim}}</h6>
+              <!--(bake-end)-->
             </div>
+            <!--(bake-start _if="certificate.description")-->
+            <p>{{certificate.description | trim}}</p>
+            <!--(bake-end)-->
           </div>
+        </div>
+        <!--(bake-end)-->
 
-          <!--(bake _section-header.html title="Languages")-->
-          <div class="description languages">
-            <div class="col-md-12 flex-row flex-space-between">
-              <ul>
-                <!--(bake-start _foreach="language:languages")-->
-                <li class="inline fifty">
-                  <strong>{{language.name | trim}}</strong>
-                  -
-                  {{language.level | trim}}
+        <!--(bake _section-header.html title="Honors & Awards")-->
+        <div class="description honors">
+          <div class="col-md-12 flex-row flex-space-between">
+            <ul>
+              <!--(bake-start _foreach="honor:honors")-->
+              <div class="flex-row flex-space-between">
+                <li>
+                  {{honor.title | trim}}
                 </li>
-                <!--(bake-end)-->
-              </ul>
-            </div>
+                <span>{{honor.date | trim}}</span>
+              </div>
+              <!--(bake-end)-->
+            </ul>
           </div>
+        </div>
 
+        <!--(bake _section-header.html title="Languages")-->
+        <div class="description languages">
+          <div class="col-md-12 flex-row flex-space-between">
+            <ul>
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
+              </li>
+              <!--(bake-end)-->
+            </ul>
+          </div>
         </div>
       </div>
     </section>

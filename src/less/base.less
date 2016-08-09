@@ -44,12 +44,18 @@ h2 {
 
 .flex-start {
   justify-content: flex-start;
+}
+
+.flex-align-start {
   align-content: flex-start;
   align-items: flex-start;
 }
 
 .flex-end {
   justify-content: flex-end;
+}
+
+.flex-align-end {
   align-content: flex-end;
   align-items: flex-end;
 }
@@ -62,12 +68,21 @@ h2 {
   flex-wrap: nowrap;
 }
 
-.flex-50 {
-  flex-basis: 50%;
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
 }
 
 .fifty {
   width: 50%;
+}
+
+.padding-sides-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding-right-10 {
+  padding-right: 10px;
 }
 
 a,
@@ -80,21 +95,6 @@ a:visited {
 
 a:hover {
   border-bottom: 1px @grey dotted;
-}
-
-p {
-  padding: 5px 0;
-  margin-bottom: 0;
-}
-
-ul {
-  margin-bottom: 0;
-  padding-right: 0.9375rem;
-  width: 100%;
-}
-
-li.inline {
-  float: left;
 }
 
 .pic {

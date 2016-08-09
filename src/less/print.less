@@ -1,11 +1,12 @@
+/*
+  Change accordingly, or change paper sizes while saving to PDF / printing
+  to get a one page CV / resume.
+*/
+@width: 270mm;
 @media print {
   html {
-    /*
-     Change accordingly, or change paper sizes while saving to PDF / printing
-     to get a one page CV / resume.
-    */
-    min-width: 255mm;
-    min-height: 290mm;
+    min-width: @width;
+    // min-height: @width * 297/210; // 297/210 = Height to width ratio of A4 Paper
   }
 
   .pic {

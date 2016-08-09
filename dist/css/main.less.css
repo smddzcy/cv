@@ -44,6 +44,8 @@ h2 {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+.flex-align-start {
   -ms-flex-line-pack: start;
       align-content: flex-start;
   -webkit-box-align: start;
@@ -54,6 +56,8 @@ h2 {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+.flex-align-end {
   -ms-flex-line-pack: end;
       align-content: flex-end;
   -webkit-box-align: end;
@@ -69,12 +73,19 @@ h2 {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
 }
-.flex-50 {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
 }
 .fifty {
   width: 50%;
+}
+.padding-sides-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+.padding-right-10 {
+  padding-right: 10px;
 }
 a,
 a:focus,
@@ -85,18 +96,6 @@ a:visited {
 }
 a:hover {
   border-bottom: 1px #3E445A dotted;
-}
-p {
-  padding: 5px 0;
-  margin-bottom: 0;
-}
-ul {
-  margin-bottom: 0;
-  padding-right: 0.9375rem;
-  width: 100%;
-}
-li.inline {
-  float: left;
 }
 .pic {
   max-height: 160px;
@@ -145,6 +144,20 @@ header .info-right span {
 header .info-right i {
   padding-left: 5px;
 }
+.half-page > div:first-of-type .section-header {
+  margin-top: 0;
+}
+.section-header {
+  display: table;
+  font-size: 24px;
+  border-bottom: 2px #3E445A dashed;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+section .half-page {
+  padding-left: 0;
+  padding-right: 0;
+}
 section .description {
   padding-bottom: 10px;
   -webkit-box-flex: 1;
@@ -159,32 +172,54 @@ section .description h5,
 section .description h6 {
   margin-bottom: 3px;
 }
-section p {
+section .description .col-caret {
+  width: 7%;
+  position: relative;
+  left: 3%;
+}
+section .description .col-caret + div {
+  width: 92%;
+  padding-right: 0;
+}
+section .description ul {
+  margin-bottom: 0;
+  padding-left: 7%;
+  padding-right: 0.9375rem;
+  width: 100%;
+}
+section .description ul li {
+  padding-left: 3px;
+}
+section .description ul li.inline {
+  float: left;
+}
+section .description p {
+  padding: 5px 0;
+  margin-bottom: 0;
   color: #3E445A;
   line-height: 1.3;
 }
-section .location {
-  font-size: 14px;
-}
-section .col-caret {
-  width: 6%;
-  position: relative;
-  left: 10px;
+section .description .experience-dateloc {
+  text-align: right;
 }
 @media screen and (max-width: 991px) {
-  section .col-caret {
-    display: none;
+  section .description .experience-dateloc {
+    text-align: left;
   }
 }
-section .section-header {
-  display: table;
-  font-size: 24px;
-  border-bottom: 2px #3E445A dashed;
-  margin-bottom: 15px;
-  margin-top: 15px;
+section .description .experience-dateloc .location {
+  font-size: 14px;
 }
-section .flex-50 > div:first-of-type .section-header {
-  margin-top: 0;
+@media screen and (max-width: 991px) {
+  section .description .col-caret {
+    display: none;
+  }
+  section .description ul {
+    padding-left: 0 !important;
+  }
+  section .description li {
+    padding-left: 0 !important;
+  }
 }
 @media screen and (max-width: 991px) {
   header {
@@ -212,13 +247,6 @@ section .flex-50 > div:first-of-type .section-header {
   section ul {
     padding-left: 0;
     padding-right: 0;
-  }
-  section .section-header {
-    margin-top: 15px !important;
-  }
-  section .flex-50 {
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
   }
   section .honors .flex-row > ul .flex-row {
     -ms-flex-wrap: nowrap !important;
@@ -298,14 +326,13 @@ section .flex-50 > div:first-of-type .section-header {
     width: 100%;
   }
 }
+/*
+  Change accordingly, or change paper sizes while saving to PDF / printing
+  to get a one page CV / resume.
+*/
 @media print {
   html {
-    /*
-     Change accordingly, or change paper sizes while saving to PDF / printing
-     to get a one page CV / resume.
-    */
-    min-width: 255mm;
-    min-height: 290mm;
+    min-width: 270mm;
   }
   .pic {
     max-height: 165px;

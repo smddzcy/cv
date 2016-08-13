@@ -1,6 +1,6 @@
 /* Colors */
 /* Screen sizes */
-@import url(https://fonts.googleapis.com/css?family=EB+Garamond);
+@import 'https://fonts.googleapis.com/css?family=EB+Garamond&subset=latin-ext';
 * {
   font-family: 'EB Garamond', serif;
 }

@@ -1,6 +1,7 @@
 module.exports = function(grunt) {
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    dev: true,
 
     less: {
       dist: {
@@ -33,7 +34,7 @@ module.exports = function(grunt) {
       options: {
         livereload: {
           host: 'localhost',
-          port: 9000,
+          port: 9002,
         }
       }
     },
@@ -48,13 +49,14 @@ module.exports = function(grunt) {
             for (var i = 0; i < files.length; i++) {
               content[files[i]] = grunt.file.readJSON('src/html/contents/' + files[i] + '.json');
             }
+            content.dev = grunt.config.dev;
             return content;
           },
           transforms: {
-            trim: function(str){
+            trim: function(str) {
               return str.trim();
             },
-            clearWhitespaces: function(str){
+            clearWhitespaces: function(str) {
               return str.replace(/\s+/g, "");
             }
           }
@@ -70,7 +72,17 @@ module.exports = function(grunt) {
 
     clean: {
       prebuild: {
-        src: ["dist/**/*.less.css", "!dist/**/*.min.css", "*.html"]
+        src: ["dist/**/*.less.css", "*.html"]
+      }
+    },
+
+    cssmin: {
+      options: {
+        keepSpecialComments: 0
+      },
+      dist: {
+        src: 'dist/css/main.less.css',
+        dest: 'dist/css/main.min.less.css'
       }
     }
   });
@@ -79,9 +91,17 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-bake');
   grunt.loadNpmTasks('grunt-serve');
 
-  grunt.registerTask('default', ['clean:prebuild', 'less', 'autoprefixer', 'bake', 'watch']);
+  grunt.registerTask('setDev', 'Sets if we are doing development', function(newVal) {
+    grunt.config.dev = newVal;
+  });
+  grunt.registerTask('process', ['clean:prebuild', 'less', 'autoprefixer',
+    'cssmin', 'bake'
+  ]);
 
+  grunt.registerTask('default', ['setDev:true', 'process', 'watch']);
+  grunt.registerTask('build', ['setDev:false', 'process']);
 };

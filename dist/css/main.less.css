@@ -196,7 +196,6 @@ section .description .col-caret + div {
 section .description ul {
   margin-bottom: 0;
   padding-left: 7%;
-  padding-right: 0.9375rem;
   width: 100%;
 }
 section .description ul li {
@@ -232,6 +231,9 @@ section .description .experience-dateloc .location {
   section .description li {
     padding-left: 0 !important;
   }
+}
+.col-md-12 {
+  padding-right: 0;
 }
 @media screen and (max-width: 991px) {
   header {

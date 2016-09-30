@@ -346,7 +346,7 @@ section .description .experience-dateloc .location {
 */
 @media print {
   html {
-    min-width: 260mm;
+    min-width: 270mm;
   }
   .pic {
     max-height: 165px;

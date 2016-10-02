@@ -110,7 +110,7 @@ a:hover {
   border-bottom: 1px #3E445A dotted;
 }
 .pic {
-  max-height: 160px;
+  max-height: 185px;
 }
 .bordered-pic {
   background-color: #fff;
@@ -138,6 +138,7 @@ header .info-pic {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
+  padding-right: 15px;
 }
 header .info-left {
   -webkit-box-flex: 1;
@@ -213,7 +214,7 @@ section .description p {
 section .description .experience-dateloc {
   text-align: right;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1049px) {
   section .description .experience-dateloc {
     text-align: left;
   }
@@ -221,7 +222,7 @@ section .description .experience-dateloc {
 section .description .experience-dateloc .location {
   font-size: 14px;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1049px) {
   section .description .col-caret {
     display: none;
   }
@@ -235,7 +236,7 @@ section .description .experience-dateloc .location {
 .col-md-12 {
   padding-right: 0;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1049px) {
   header {
     padding: 20px 0 25px !important;
   }
@@ -346,10 +347,7 @@ section .description .experience-dateloc .location {
 */
 @media print {
   html {
-    min-width: 270mm;
-  }
-  .pic {
-    max-height: 165px;
+    min-width: 268mm;
   }
   .container {
     width: 100%;

@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="dist/css/main.min.less.css">
 
     <!-- Favicon -->
-    <link rel="icon" href="dist/img/icns/favicon-62.png" sizes="62x62" type="image/png">
+    <link rel="icon" href="dist/img/icns/favicon-62.png" sizes="62x62"
+          type="image/png">
   </head>
   <body>
     <header class="container">
       <div class="flex-row flex-space-between">
         <div class="info-pic">
-          <img src="dist/img/photo.png" alt="Photo of {{personal_info.name}}" class="pic bordered-pic"/>
+          <img src="dist/img/photo.png" alt="Photo of {{personal_info.name}}"
+               class="pic bordered-pic"/>
         </div>
         <div class="flex-column info-left">
           <h1 class="name">{{personal_info.name | trim}}</h1>
@@ -62,12 +64,20 @@
             <i class="fa fa-linkedin"></i>
           </span>
           <!--(bake-end)-->
+          <!--(bake-start _if="personal_info.hackerrank")-->
+          <span>
+            <a href="{{personal_info.hackerrank.url | trim}}" target="_blank">{{personal_info.hackerrank.title | trim}}</a>
+            <i class="fa" style="padding-left: 2px;"><img src="dist/img/icns/hr-bw.png"
+                    style="margin-right: -2.5px; width: 19px; height: 16px;"/></i>
+          </span>
+          <!--(bake-end)-->
         </div>
       </div>
     </header>
 
     <section class="container">
       <div class="flex-row flex-start col-md-6 half-page">
+        <!--(bake-start _if="experiences.length")-->
         <!--(bake _section-header.html title="Work Experience")-->
         <!--(bake-start _foreach="experience:experiences")-->
         <div class="description experience">
@@ -95,7 +105,9 @@
           </div>
         </div>
         <!--(bake-end)-->
+        <!--(bake-end)-->
 
+        <!--(bake-start _if="projects.length")-->
         <!--(bake _section-header.html title="Open Source Projects")-->
         <!--(bake-start _foreach="project:projects")-->
         <div class="description project">
@@ -117,9 +129,11 @@
           </div>
         </div>
         <!--(bake-end)-->
+        <!--(bake-end)-->
       </div>
 
       <div class="flex-row flex-start col-md-6 half-page">
+        <!--(bake-start _if="education.length")-->
         <!--(bake _section-header.html title="Education")-->
         <!--(bake-start _foreach="school:education")-->
         <div class="description education">
@@ -142,7 +156,9 @@
           </div>
         </div>
         <!--(bake-end)-->
+        <!--(bake-end)-->
 
+        <!--(bake-start _if="skills.length")-->
         <!--(bake _section-header.html title="Skills")-->
         <div class="description skills">
           <div class="col-md-12 flex-row flex-space-between">
@@ -153,7 +169,9 @@
             </ul>
           </div>
         </div>
+        <!--(bake-end)-->
 
+        <!--(bake-start _if="certificates.length")-->
         <!--(bake _section-header.html title="Certifications")-->
         <!--(bake-start _foreach="certificate:certificates")-->
         <div class="description certificate">
@@ -176,7 +194,9 @@
           </div>
         </div>
         <!--(bake-end)-->
+        <!--(bake-end)-->
 
+        <!--(bake-start _if="honors.length")-->
         <!--(bake _section-header.html title="Honors & Awards")-->
         <div class="description honors">
           <div class="col-md-12 flex-row flex-space-between">
@@ -192,7 +212,9 @@
             </ul>
           </div>
         </div>
+        <!--(bake-end)-->
 
+        <!--(bake-start _if="languages.length")-->
         <!--(bake _section-header.html title="Languages")-->
         <div class="description languages">
           <div class="col-md-12 flex-row flex-space-between">
@@ -205,10 +227,11 @@
             </ul>
           </div>
         </div>
+        <!--(bake-end)-->
       </div>
     </section>
-    <!--(bake-start _if="dev=='true'")-->
-    <script src="http://localhost:9000/livereload.js"></script>
+    <!--(bake-start _if="dev")-->
+    <script src="http://localhost:9002/livereload.js"></script>
     <!--(bake-end)-->
   </body>
 </html>

@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: ['src/**/*.less'],
-        tasks: ['less', 'autoprefixer']
+        tasks: ['less', 'autoprefixer', 'cssmin']
       },
       all: {
         files: ["Gruntfile.js"],

@@ -1,4 +1,16 @@
 @media screen and (max-width: @screen-sm-max) {
+  .container {
+    width: 85%;
+  }
+
+  .half-page:first-child {
+    padding-right: 17px;
+  }
+
+  .half-page:nth-child(2) {
+    padding-left: 17px;
+  }
+
   header {
     padding: 20px 0 25px !important;
 
@@ -39,6 +51,12 @@
         flex-basis: 75%;
       }
     }
+
+    .description {
+      .col-caret + div {
+        width: 100% !important;
+      }
+    }
   }
 
   .col-lg-1,
@@ -53,6 +71,18 @@
   .col-lg-7,
   .col-lg-8,
   .col-lg-9,
+  .col-lg-offset-1,
+  .col-lg-offset-10,
+  .col-lg-offset-11,
+  .col-lg-offset-12,
+  .col-lg-offset-2,
+  .col-lg-offset-3,
+  .col-lg-offset-4,
+  .col-lg-offset-5,
+  .col-lg-offset-6,
+  .col-lg-offset-7,
+  .col-lg-offset-8,
+  .col-lg-offset-9,
   .col-md-1,
   .col-md-10,
   .col-md-11,
@@ -102,6 +132,7 @@
   .col-xs-8,
   .col-xs-9 {
     .padding-sides-0();
+    margin-left: 0;
   }
 
   p {
@@ -110,5 +141,14 @@
 
   .fifty {
     width: 100%;
+  }
+}
+@media screen and (max-width: @screen-xs-max) {
+  .half-page:first-child {
+    padding-right: 0;
+  }
+
+  .half-page:nth-child(2) {
+    padding-left: 0;
   }
 }

@@ -131,17 +131,30 @@
         <!--(bake-end)-->
         <!--(bake-end)-->
 
-        <!--(bake-start _if="languages.length")-->
-        <!--(bake _section-header.html title="Languages")-->
-        <div class="description languages">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
-              </li>
-              <!--(bake-end)-->
-            </ul>
+        <!--(bake _section-header.html title="Volunteering Experience")-->
+        <!--(bake-start _foreach="volunteer:volunteering_experience")-->
+        <div class="description experience">
+          <div class="hidden-sm hidden-xs col-md-1 col-caret">
+            <i class="fa fa-angle-right"></i>
+          </div>
+          <div class="col-sm-12 col-md-11">
+            <div class="flex-row flex-space-between">
+              <div class="padding-right-10">
+                <h1>{{volunteer.role | trim}}</h1>
+                <h2>{{volunteer.name | trim}}</h2>
+              </div>
+              <div class="volunteer-dateloc">
+                <!--(bake-start _if="volunteer.date")-->
+                <h6 class="date">{{volunteer.date | trim}}</h6>
+                <!--(bake-end)-->
+                <!--(bake-start _if="volunteer.location")-->
+                <h6 class="location">{{volunteer.location | trim}}</h6>
+                <!--(bake-end)-->
+              </div>
+            </div>
+            <!--(bake-start _if="volunteer.description")-->
+            <p>{{volunteer.description | trim}}</p>
+            <!--(bake-end)-->
           </div>
         </div>
         <!--(bake-end)-->
@@ -223,6 +236,21 @@
                 </li>
                 <span>{{honor.date | trim}}</span>
               </div>
+              <!--(bake-end)-->
+            </ul>
+          </div>
+        </div>
+        <!--(bake-end)-->
+
+        <!--(bake-start _if="languages.length")-->
+        <!--(bake _section-header.html title="Languages")-->
+        <div class="description languages">
+          <div class="col-md-12 flex-row flex-space-between">
+            <ul>
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
+              </li>
               <!--(bake-end)-->
             </ul>
           </div>

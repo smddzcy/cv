@@ -380,7 +380,7 @@ section .description .experience-dateloc .location {
 */
 @media print {
   html {
-    min-width: 268mm;
+    min-width: 272mm;
   }
   .container {
     width: 100%;

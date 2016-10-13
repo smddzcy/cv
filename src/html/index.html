@@ -130,6 +130,21 @@
         </div>
         <!--(bake-end)-->
         <!--(bake-end)-->
+
+        <!--(bake-start _if="languages.length")-->
+        <!--(bake _section-header.html title="Languages")-->
+        <div class="description languages">
+          <div class="col-md-12 flex-row flex-space-between">
+            <ul>
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
+              </li>
+              <!--(bake-end)-->
+            </ul>
+          </div>
+        </div>
+        <!--(bake-end)-->
       </div>
 
       <div class="flex-row flex-start col-md-6 half-page">
@@ -208,21 +223,6 @@
                 </li>
                 <span>{{honor.date | trim}}</span>
               </div>
-              <!--(bake-end)-->
-            </ul>
-          </div>
-        </div>
-        <!--(bake-end)-->
-
-        <!--(bake-start _if="languages.length")-->
-        <!--(bake _section-header.html title="Languages")-->
-        <div class="description languages">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
-              </li>
               <!--(bake-end)-->
             </ul>
           </div>

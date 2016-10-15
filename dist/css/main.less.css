@@ -234,8 +234,8 @@ section .description .experience-dateloc .location {
     width: 85%;
   }
   .half-page:first-child {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     padding-right: 17px;
   }
   .half-page:nth-child(2) {

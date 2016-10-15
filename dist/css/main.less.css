@@ -141,7 +141,7 @@ header .info-right {
       flex: 1 0 auto;
   text-align: right;
 }
-header .info-right span {
+header .info-right div {
   padding: 2px 0;
 }
 header .info-right i {

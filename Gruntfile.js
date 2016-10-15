@@ -14,6 +14,9 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'dist/css/main.less.css': 'dist/css/main.less.css'
+        },
+        options: {
+          browsers: ['last 2 versions', 'ie >= 8']
         }
       }
     },

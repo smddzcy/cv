@@ -1,6 +1,6 @@
 # CV
 
-A simple, modern CV / resume template.
+A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
 
 ## Creating Your CV
 
@@ -16,6 +16,7 @@ Fill in the `.json` files in `src/html/contents` with your information.
 
 Run `grunt build` and get your fresh CV in the HTML format from `index.html`.
 
+If you want it in the PDF format, you can print the page as a PDF, just like I do all the time. (*Just do not use Chrome to print, that has some real problems with printing*)
 
 ## Contributing
 

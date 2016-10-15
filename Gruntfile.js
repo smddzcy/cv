@@ -84,6 +84,12 @@ module.exports = function(grunt) {
         src: 'dist/css/main.less.css',
         dest: 'dist/css/main.min.less.css'
       }
+    },
+
+    open : {
+      dev : {
+        path: process.cwd() + '/index.html'
+      }
     }
   });
 
@@ -92,6 +98,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-open');
   grunt.loadNpmTasks('grunt-bake');
   grunt.loadNpmTasks('grunt-serve');
 
@@ -102,6 +109,6 @@ module.exports = function(grunt) {
     'cssmin', 'bake'
   ]);
 
-  grunt.registerTask('default', ['setDev:true', 'process', 'watch']);
+  grunt.registerTask('default', ['setDev:true', 'process', 'open:dev', 'watch']);
   grunt.registerTask('build', ['setDev:false', 'process']);
 };

@@ -171,6 +171,10 @@ section .half-page {
   padding-left: 0;
   padding-right: 0;
 }
+section .half-page:first-child {
+  margin-left: -2%;
+  margin-right: 2%;
+}
 section .description {
   padding-bottom: 10px;
   -webkit-box-flex: 1;
@@ -241,6 +245,8 @@ section .description .experience-dateloc .location {
     width: 85%;
   }
   .half-page:first-child {
+    margin-left: 0;
+    margin-right: 0;
     padding-right: 17px;
   }
   .half-page:nth-child(2) {

@@ -218,7 +218,7 @@ section .description p {
 section .description .experience-dateloc {
   text-align: right;
 }
-@media screen and (max-width: 1049px) {
+@media (max-width: 1049px) {
   section .description .experience-dateloc {
     text-align: left;
   }
@@ -226,7 +226,7 @@ section .description .experience-dateloc {
 section .description .experience-dateloc .location {
   font-size: 14px;
 }
-@media screen and (max-width: 1049px) {
+@media (max-width: 1049px) {
   section .description .col-caret {
     display: none;
   }
@@ -240,7 +240,7 @@ section .description .experience-dateloc .location {
 .col-md-12 {
   padding-right: 0;
 }
-@media screen and (max-width: 1049px) {
+@media (max-width: 1049px) {
   .container {
     width: 85%;
   }
@@ -372,7 +372,7 @@ section .description .experience-dateloc .location {
     width: 100%;
   }
 }
-@media screen and (max-width: 767px) {
+@media (max-width: 767px) {
   .half-page:first-child {
     padding-right: 0;
   }

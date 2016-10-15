@@ -14,7 +14,7 @@ npm install
 
 Fill in the `.json` files in `src/html/contents` with your information. 
 
-Then, run `grunt build` and get your fresh CV in the HTML format: `index.html`
+Run `grunt build` and get your fresh CV in the HTML format from `index.html`.
 
 
 ## Contributing

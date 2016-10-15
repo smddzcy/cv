@@ -31,9 +31,9 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 ## TODO
 
 - [ ] Element ordering - Places of the elements should be changed easily
-- [ ] Font size - Font size should be optional, not hard-coded
-- [ ] Font and background color - There must be a set of colors to choose for font and background
-- [ ] Visual & overall code improvements
+- [ ] Font size - Font size should be optional, not hard-coded
+- [ ] Font and background color - There must be a set of colors to choose for font and background
+- [ ] Visual & overall code improvements
 
 ## License
 

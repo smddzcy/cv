@@ -30,7 +30,7 @@ h2 {
 }
 .container {
   max-width: 100%;
-  width: 80%;
+  width: 85%;
   padding: 20px 0 25px;
 }
 .container:after {
@@ -207,7 +207,7 @@ section .description p {
 section .description .experience-dateloc {
   text-align: right;
 }
-@media (max-width: 1049px) {
+@media (max-width: 999px) {
   section .description .experience-dateloc {
     text-align: left;
   }
@@ -215,7 +215,7 @@ section .description .experience-dateloc {
 section .description .experience-dateloc .location {
   font-size: 14px;
 }
-@media (max-width: 1049px) {
+@media (max-width: 999px) {
   section .description .col-caret {
     display: none;
   }
@@ -229,9 +229,9 @@ section .description .experience-dateloc .location {
 .col-md-12 {
   padding-right: 0;
 }
-@media (max-width: 1049px) {
+@media (max-width: 999px) {
   .container {
-    width: 85%;
+    width: 90%;
   }
   .half-page:first-child {
     margin-left: 0 !important;
@@ -375,7 +375,11 @@ section .description .experience-dateloc .location {
 */
 @media print {
   html {
-    min-width: 272mm;
+    min-width: 276mm;
+  }
+  h1,
+  h2 {
+    font-weight: initial !important;
   }
   .container {
     width: 100%;

@@ -1,4 +1,4 @@
-<div class="description experience">
+<section class="description experience">
   <div class="hidden-sm hidden-xs col-md-1 col-caret">
     <i class="fa fa-angle-right"></i>
   </div>
@@ -6,10 +6,10 @@
     <div class="flex-row flex-space-between">
       <div class="padding-right-10">
         <h1>{{experience.role | trim}}</h1>
-        <!--(bake-start _if=experience.company)-->
+        <!--(bake-start _if="experience.company")-->
           <h2>{{experience.company | trim}}</h2>
         <!--(bake-end)-->
-        <!--(bake-start _if=experience.organization)-->
+        <!--(bake-start _if="experience.organization")-->
           <h2>{{experience.organization | trim}}</h2>
         <!--(bake-end)-->
       </div>
@@ -26,4 +26,4 @@
     <p>{{experience.description | trim}}</p>
     <!--(bake-end)-->
   </div>
-</div>
+</section>

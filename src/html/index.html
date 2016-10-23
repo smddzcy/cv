@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <!--(bake _head.html)-->
     <title>CV - {{personal_info.name}}</title>
@@ -59,14 +59,15 @@
           <div>
             <a href="{{personal_info.hackerrank.url | trim}}" target="_blank">{{personal_info.hackerrank.title | trim}}</a>
             <i class="fa" style="padding-left: 2px;"><img src="dist/img/icns/hr-bw.png"
-                    style="margin-right: -2.5px; width: 19px; height: 16px;"/></i>
+               style="margin-right: -2.5px; width: 19px; height: 16px;"
+               alt="Hackerrank Logo"/></i>
           </div>
           <!--(bake-end)-->
         </div>
       </div>
     </header>
 
-    <section class="container">
+    <main class="container">
       <div class="flex-row flex-start col-md-6 half-page">
         <!--(bake-start _if="experiences.length")-->
           <!--(bake _section-header.html title="Work Experience")-->
@@ -76,7 +77,7 @@
         <!--(bake-start _if="projects.length")-->
           <!--(bake _section-header.html title="Open Source Projects")-->
           <!--(bake-start _foreach="project:projects")-->
-            <div class="description project">
+            <section class="description project">
               <div class="hidden-sm hidden-xs col-md-1 col-caret">
                 <i class="fa fa-angle-right"></i>
               </div>
@@ -93,7 +94,7 @@
                 </div>
                 <p>{{project.description | trim}}</p>
               </div>
-            </div>
+            </section>
           <!--(bake-end)-->
         <!--(bake-end)-->
 
@@ -107,7 +108,7 @@
         <!--(bake-start _if="education.length")-->
         <!--(bake _section-header.html title="Education")-->
         <!--(bake-start _foreach="school:education")-->
-        <div class="description education">
+        <section class="description education">
           <div class="hidden-sm hidden-xs col-md-1 col-caret">
             <i class="fa fa-angle-right"></i>
           </div>
@@ -125,13 +126,13 @@
             <p>{{school.description | trim}}</p>
             <!--(bake-end)-->
           </div>
-        </div>
+        </section>
         <!--(bake-end)-->
         <!--(bake-end)-->
 
         <!--(bake-start _if="skills.length")-->
         <!--(bake _section-header.html title="Skills")-->
-        <div class="description skills">
+        <section class="description skills">
           <div class="col-md-12 flex-row flex-space-between">
             <ul>
               <!--(bake-start _foreach="skill:skills")-->
@@ -139,13 +140,13 @@
               <!--(bake-end)-->
             </ul>
           </div>
-        </div>
+        </section>
         <!--(bake-end)-->
 
         <!--(bake-start _if="certificates.length")-->
         <!--(bake _section-header.html title="Certifications")-->
         <!--(bake-start _foreach="certificate:certificates")-->
-        <div class="description certificate">
+        <section class="description certificate">
           <div class="hidden-sm hidden-xs col-md-1 col-caret">
             <i class="fa fa-angle-right"></i>
           </div>
@@ -163,13 +164,13 @@
             <p>{{certificate.description | trim}}</p>
             <!--(bake-end)-->
           </div>
-        </div>
+        </section>
         <!--(bake-end)-->
         <!--(bake-end)-->
 
         <!--(bake-start _if="honors.length")-->
         <!--(bake _section-header.html title="Honors & Awards")-->
-        <div class="description honors">
+        <section class="description honors">
           <div class="col-md-12 flex-row flex-space-between">
             <ul>
               <!--(bake-start _foreach="honor:honors")-->
@@ -182,12 +183,12 @@
               <!--(bake-end)-->
             </ul>
           </div>
-        </div>
+        </section>
         <!--(bake-end)-->
 
         <!--(bake-start _if="languages.length")-->
         <!--(bake _section-header.html title="Languages")-->
-        <div class="description languages">
+        <section class="description languages">
           <div class="col-md-12 flex-row flex-space-between">
             <ul>
               <!--(bake-start _foreach="language:languages")-->
@@ -197,10 +198,10 @@
               <!--(bake-end)-->
             </ul>
           </div>
-        </div>
+        </section>
         <!--(bake-end)-->
       </div>
-    </section>
+    </main>
     <!--(bake-start _if="dev=='true'")-->
     <script src="http://localhost:9002/livereload.js"></script>
     <!--(bake-end)-->

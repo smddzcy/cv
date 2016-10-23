@@ -157,72 +157,72 @@ header .info-right i {
   margin-bottom: 12px;
   margin-top: 10px;
 }
-section .half-page {
+main .half-page {
   padding-left: 0;
   padding-right: 0;
 }
-section .half-page:first-child {
+main .half-page:first-child {
   margin-left: -2%;
   margin-right: 2%;
 }
-section .description {
+main .description {
   padding-bottom: 10px;
   -ms-flex: 1 0 100%;
       flex: 1 0 100%;
 }
-section .description h1,
-section .description h2,
-section .description h3,
-section .description h4,
-section .description h5,
-section .description h6 {
+main .description h1,
+main .description h2,
+main .description h3,
+main .description h4,
+main .description h5,
+main .description h6 {
   margin-bottom: 3px;
 }
-section .description .col-caret {
+main .description .col-caret {
   width: 7%;
   position: relative;
   left: 3%;
 }
-section .description .col-caret + div {
+main .description .col-caret + div {
   width: 92%;
   padding-right: 0;
 }
-section .description ul {
+main .description ul {
   margin-bottom: 0;
   padding-left: 7%;
   width: 100%;
 }
-section .description ul li {
+main .description ul li {
   padding-left: 3px;
 }
-section .description ul li.inline {
+main .description ul li.inline {
   float: left;
 }
-section .description p {
+main .description p {
   padding: 5px 0;
   margin-bottom: 0;
   color: #3E445A;
   line-height: 1.3;
 }
-section .description .experience-dateloc {
+main .description .experience-dateloc {
   text-align: right;
 }
 @media (max-width: 999px) {
-  section .description .experience-dateloc {
+  main .description .experience-dateloc {
     text-align: left;
   }
 }
-section .description .experience-dateloc .location {
+main .description .experience-dateloc .location {
   font-size: 14px;
 }
 @media (max-width: 999px) {
-  section .description .col-caret {
+  main .description .col-caret {
     display: none;
   }
-  section .description ul {
+  main .description ul {
     padding-left: 0 !important;
   }
-  section .description li {
+  main .description li {
     padding-left: 0 !important;
   }
 }
@@ -263,19 +263,19 @@ section .description .experience-dateloc .location {
   header .name {
     margin-top: 20px;
   }
-  section ul {
+  main ul {
     padding-left: 0;
     padding-right: 0;
   }
-  section .honors .flex-row > ul .flex-row {
+  main .honors .flex-row > ul .flex-row {
     -ms-flex-wrap: nowrap !important;
         flex-wrap: nowrap !important;
   }
-  section .honors .flex-row > ul li {
+  main .honors .flex-row > ul li {
     -ms-flex-preferred-size: 75%;
         flex-basis: 75%;
   }
-  section .description .col-caret + div {
+  main .description .col-caret + div {
     width: 100% !important;
   }
   .col-lg-1,

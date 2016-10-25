@@ -1,4 +1,9 @@
 {
+  "headings": "Black",
+  "subheadings": "Black",
+  "icons": "Black",
+  "body": "Black",
+  "background": "Black",
   "color choices": {
     "Pink": "ffc0cb",
     "LightPink": "ffb6c1",

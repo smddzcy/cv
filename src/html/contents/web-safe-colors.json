@@ -1,9 +1,9 @@
 {
-  "headings": "Black",
-  "subheadings": "Black",
-  "icons": "Black",
-  "body": "Black",
-  "background": "Black",
+  "headings": "000000",
+  "subheadings": "000000",
+  "icons": "000000",
+  "body": "000000",
+  "background": "ffffff",
   "color choices": {
     "Pink": "ffc0cb",
     "LightPink": "ffb6c1",

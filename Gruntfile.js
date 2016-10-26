@@ -1,4 +1,6 @@
 module.exports = function(grunt) {
+  'use strict';
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     dev: true,
@@ -24,15 +26,11 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: ['src/**/*.less'],
-        tasks: ['less', 'autoprefixer', 'cssmin']
-      },
-      all: {
-        files: ["Gruntfile.js"],
-        tasks: []
+        tasks: ['less', 'autoprefixer', 'cssmin', 'bake']
       },
       bake: {
-        files: ["src/html/**/*"],
-        tasks: "bake"
+        files: ['src/html/**/*'],
+        tasks: 'bake'
       },
       options: {
         livereload: {
@@ -45,7 +43,7 @@ module.exports = function(grunt) {
     bake: {
       dist: {
         options: {
-          basePath: "src/html/",
+          basePath: 'src/html/',
           content: function() {
             var files = grunt.file.readJSON('src/html/contents.json');
             var content = {};
@@ -60,22 +58,22 @@ module.exports = function(grunt) {
               return str.trim();
             },
             clearWhitespaces: function(str) {
-              return str.replace(/\s+/g, "");
+              return str.replace(/\s+/g, '');
             }
           }
         },
         files: [{
           expand: true,
-          cwd: "src/html/",
-          src: ["**/*.html", "!**/_*.html"],
-          dest: ""
+          cwd: 'src/html/',
+          src: ['**/*.html', '!**/_*.html'],
+          dest: ''
         }]
       }
     },
 
     clean: {
       prebuild: {
-        src: ["dist/**/*.less.css", "*.html"]
+        src: ['dist/**/*.less.css', '*.html']
       }
     },
 
@@ -89,8 +87,8 @@ module.exports = function(grunt) {
       }
     },
 
-    open : {
-      dev : {
+    open: {
+      dev: {
         path: process.cwd() + '/index.html'
       }
     }

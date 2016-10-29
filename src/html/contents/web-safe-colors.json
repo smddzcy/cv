@@ -1,10 +1,10 @@
 {
-  "headings": "#2e8b57",
-  "subheadings": "#8fbc8f",
-  "icons": "#008b8b",
-  "body": "#000000",
-  "background": "url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png')",
-  "color choices": {
+  "headings": "SeaGreen",
+  "subheadings": "DarkSeaGreen",
+  "icons": "DarkCyan",
+  "bodyText": "Black",
+  "bodyBackground": "url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png')",
+  "colorOptions": {
     "Pink": "#ffc0cb",
     "LightPink": "#ffb6c1",
     "HotPink": "#ff69b4",

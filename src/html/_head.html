@@ -26,29 +26,29 @@
 	
 	body,
 	section .description p {
-		color: {{web-safe-colors.body}};
+		color: {{web-safe-colors.bodyText | assignColor}};
 	}
 	
 	h1,
 	header .name {
-		color: {{web-safe-colors.headings}};
+		color: {{web-safe-colors.headings | assignColor}};
 	}
 
 	h2,
 	header .profession {
-		color: {{web-safe-colors.subheadings}};
+		color: {{web-safe-colors.subheadings | assignColor}};
 	}
 
 	.section-header {
-		border-bottom-color: {{web-safe-colors.headings}};
+		border-bottom-color: {{web-safe-colors.headings | assignColor}};
 	}
 
 	.fa {
-		color: {{web-safe-colors.icons}};
+		color: {{web-safe-colors.icons | assignColor}};
 	}
 
 	body {
-		background: {{web-safe-colors.background}};
+		background: {{web-safe-colors.bodyBackground | assignColor}};
 	}
 
 </style>

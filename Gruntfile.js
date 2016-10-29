@@ -59,6 +59,11 @@ module.exports = function(grunt) {
             },
             clearWhitespaces: function(str) {
               return str.replace(/\s+/g, '');
+            },
+            assignColor: function(str) {
+              var colorSettings = grunt.file.readJSON('src/html/contents/web-safe-colors.json'),
+                selectedColor = colorSettings.colorOptions[str] || 'initial';
+              return selectedColor;
             }
           }
         },

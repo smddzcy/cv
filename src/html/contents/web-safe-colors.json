@@ -3,7 +3,7 @@
   "subheadings": "DarkSeaGreen",
   "icons": "DarkCyan",
   "bodyText": "Black",
-  "bodyBackground": "url('http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/cork-wallet.png')",
+  "bodyBgImg": "",
   "colorOptions": {
     "Pink": "#ffc0cb",
     "LightPink": "#ffb6c1",

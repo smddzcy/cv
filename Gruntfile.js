@@ -64,6 +64,13 @@ module.exports = function(grunt) {
               var colorSettings = grunt.file.readJSON('src/html/contents/web-safe-colors.json'),
                 selectedColor = colorSettings.colorOptions[str] || 'initial';
               return selectedColor;
+            },
+            assignBgImg: function(imgUrl) {
+              if (!imgUrl) {
+                return 'initial';
+              } else {
+                return "url('" + imgUrl + "') repeat";
+              }
             }
           }
         },

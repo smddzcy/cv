@@ -61,16 +61,15 @@ module.exports = function(grunt) {
               return str.replace(/\s+/g, '');
             },
             assignColor: function(str) {
-              var colorSettings = grunt.file.readJSON('src/html/contents/web-safe-colors.json'),
+              var colorSettings = grunt.file.readJSON('src/html/contents/color_palette.json'),
                 selectedColor = colorSettings.colorOptions[str] || 'initial';
               return selectedColor;
             },
             assignBgImg: function(imgUrl) {
-              if (!imgUrl) {
-                return 'initial';
-              } else {
+              if (imgUrl) {
                 return "url('" + imgUrl + "') repeat";
               }
+              return 'initial';
             }
           }
         },

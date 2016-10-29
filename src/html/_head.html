@@ -23,32 +23,32 @@
 
 <link rel="stylesheet" href="dist/css/main.min.less.css">
 <style>
-	
+
 	body,
-	section .description p {
-		color: {{web-safe-colors.bodyText | assignColor}};
+	main .description p {
+		color: {{color_palette.bodyText | assignColor}} !important;
 	}
-	
+
 	h1,
 	header .name {
-		color: {{web-safe-colors.headings | assignColor}};
+		color: {{color_palette.headings | assignColor}};
 	}
 
 	h2,
 	header .profession {
-		color: {{web-safe-colors.subheadings | assignColor}};
+		color: {{color_palette.subheadings | assignColor}};
 	}
 
 	.section-header {
-		border-bottom-color: {{web-safe-colors.headings | assignColor}};
+		border-bottom-color: {{color_palette.headings | assignColor}};
 	}
 
 	.fa {
-		color: {{web-safe-colors.icons | assignColor}};
+		color: {{color_palette.icons | assignColor}};
 	}
 
 	body {
-		background: {{web-safe-colors.bodyBgImg | assignBgImg}};
+		background: {{color_palette.bodyBgImg | assignBgImg}};
 	}
 
 </style>

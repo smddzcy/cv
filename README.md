@@ -6,17 +6,18 @@ A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) 
 
 (You need `npm` in order to build the project. If it's not installed, install npm from [here](https://www.npmjs.com/get-npm))
 
-Install the dependencies:
+1. Install the dependencies:
+   ```
+   npm install
+   ```
 
-```
-npm install
-```
+2. Fill in the `.json` files in `src/html/contents` with your information. 
 
-Fill in the `.json` files in `src/html/contents` with your information. 
-
-Run `grunt build` and get your fresh CV in the HTML format from `index.html`.
+3. Run `grunt build` and get your fresh CV in the HTML format from `index.html`.
 
 If you want it in the PDF format, you can print the page as a PDF, just like I do all the time. (*Just do not use Chrome to print, that has some real problems with printing*)
+
+**Note:** `src/html/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/dist/img/color-palette.jpg) or `dist/img/color-palette.jpg` file.
 
 ## Contributing
 
@@ -31,10 +32,9 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 
 ## TODO
 
+- [ ] Documentation for color palette (`src/html/contents/color_palette.json`)
 - [ ] Element ordering - Places of the elements should be changed easily
 - [ ] Font size - Font size should be optional, not hard-coded
-- [ ] Font and background color - There must be a set of colors to choose for font and background
-- [ ] Visual & overall code improvements
 
 ## License
 

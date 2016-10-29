@@ -22,4 +22,34 @@
 <link rel="mask-icon" href="dist/img/icns/favicon-192.png" color="white">
 
 <link rel="stylesheet" href="dist/css/main.min.less.css">
+<style>
+	
+	body,
+	section .description p {
+		color: {{web-safe-colors.bodyText | assignColor}};
+	}
+	
+	h1,
+	header .name {
+		color: {{web-safe-colors.headings | assignColor}};
+	}
+
+	h2,
+	header .profession {
+		color: {{web-safe-colors.subheadings | assignColor}};
+	}
+
+	.section-header {
+		border-bottom-color: {{web-safe-colors.headings | assignColor}};
+	}
+
+	.fa {
+		color: {{web-safe-colors.icons | assignColor}};
+	}
+
+	body {
+		background: {{web-safe-colors.bodyBgImg | assignBgImg}};
+	}
+
+</style>
 <link rel="icon" href="dist/img/icns/favicon-192.png" sizes="192x192" type="image/png">

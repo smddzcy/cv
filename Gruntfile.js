@@ -70,6 +70,12 @@ module.exports = function(grunt) {
                 return "url('" + imgUrl + "') repeat";
               }
               return 'initial';
+            },
+            assignFontSize: function(fontSize) {
+              if (fontSize) {
+                return fontSize + 'rem' || 'initial';
+              }
+              return 'initial';
             }
           }
         },

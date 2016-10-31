@@ -73,7 +73,7 @@ module.exports = function(grunt) {
             },
             assignFontSize: function(fontSize) {
               if (fontSize) {
-                return fontSize + 'rem' || 'initial';
+                return fontSize + 'rem';
               }
               return 'initial';
             }

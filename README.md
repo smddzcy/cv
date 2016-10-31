@@ -11,7 +11,9 @@ A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) 
    npm install
    ```
 
-2. Fill in the `.json` files in `src/html/contents` with your information. 
+2. Fill in the `.json` files in `src/html/contents` with your information, including the style settings files:
+    1. `src/html/contents/color_palette.json` set font colors and/or a background image
+    2. `src/html/contents/font_sizes.json` set font sizes using a unitless number (_i.e. 1.3_) as `rem` will automatically be used (`rem` is a unit relative to the base font size of the document, commonly `16px`, and you can read more about it [here](https://css-tricks.com/font-sizing-with-rem/)).
 
 3. Run `grunt build` and get your fresh CV in the HTML format from `index.html`.
 

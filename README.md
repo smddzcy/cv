@@ -2,6 +2,8 @@
 
 A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
 
+[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+
 ## Creating Your CV
 
 (You need `npm` in order to build the project. If it's not installed, install npm from [here](https://www.npmjs.com/get-npm))

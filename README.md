@@ -34,6 +34,7 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 
 - [ ] Carets on descriptions should be removed (or they should be optional), they're too distracting when the content is dense.
 - [ ] "Honors & Awards" part should definitely have descriptions.
+- [ ] Print styles should be moved to its own file, and it should be called explicitly as a print stylesheet. (with `media="print"` in HTML)
 - [ ] Documentation for color palette (`src/html/contents/color_palette.json`)
 - [ ] Element ordering - Places of the elements should be changed easily
 - [ ] Font size - Font size should be optional, not hard-coded

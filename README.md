@@ -32,6 +32,8 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 
 ## TODO
 
+- [ ] Carets on descriptions should be removed (or they should be optional), they're too distracting when the content is dense.
+- [ ] "Honors & Awards" part should definitely have descriptions.
 - [ ] Documentation for color palette (`src/html/contents/color_palette.json`)
 - [ ] Element ordering - Places of the elements should be changed easily
 - [ ] Font size - Font size should be optional, not hard-coded

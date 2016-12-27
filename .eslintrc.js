@@ -5,7 +5,6 @@ module.exports = {
   },
   "extends": "google",
   "rules": {
-    "accessor-pairs": "error",
     "array-bracket-spacing": [
       "error",
       "never"

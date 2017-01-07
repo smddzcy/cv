@@ -24,7 +24,8 @@
     <link rel="apple-touch-icon" href="dist/img/icns/favicon-192.png">
     <link rel="mask-icon" href="dist/img/icns/favicon-192.png" color="white">
 
-    <link rel="stylesheet" href="dist/css/main.min.less.css">
+    <link rel="stylesheet" href="dist/css/main.min.less.css" type="text/css">
+    <link rel="stylesheet" href="dist/css/print.min.less.css" type="text/css" media="print">
     <style>
 
     	body,
@@ -105,16 +106,13 @@
     </header>
 
     <main class="container">
-      <div class="flex-row flex-start col-md-6 half-page">
-          <div class="col-lg-offset-1">
+      <div class="flex-row flex-start col-md-6 half-page" id="first-half-page">
+          <div class="padding-left-bs">
             <h1 class="section-header">Work Experience</h1>
           </div>
 
           <section class="description experience">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
+            <div class="col-sm-12">
               <div class="flex-row flex-space-between">
                 <div class="padding-right-10">
                   <h1>Software Engineer</h1>
@@ -130,10 +128,7 @@
           </section>
 
           <section class="description experience">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
+            <div class="col-sm-12">
               <div class="flex-row flex-space-between">
                 <div class="padding-right-10">
                   <h1>Software Engineer</h1>
@@ -149,28 +144,12 @@
           </section>
 
 
-          <div class="col-lg-offset-1">
+          <div class="padding-left-bs">
             <h1 class="section-header">Open Source Projects</h1>
           </div>
 
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
-                <div class="flex-row flex-space-between">
-                  <h1>EngelsizMenu
-                    <a href="https://github.com/smddzcy/EngelsizMenu" target="_blank"><i class="fa fa-github"></i></a>
-                  </h1>
-                </div>
-                <p>Accessible, easy-to-use restaurant menu app for blind and visually impaired.</p>
-              </div>
-            </section>
-            <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>BounCoursePlanner
                     <a href="https://github.com/smddzcy/BounCoursePlanner" target="_blank"><i class="fa fa-github"></i></a>
@@ -181,10 +160,7 @@
               </div>
             </section>
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>BUEvents
                     <a href="https://github.com/smddzcy/BUEvents" target="_blank"><i class="fa fa-github"></i></a>
@@ -195,23 +171,7 @@
               </div>
             </section>
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
-                <div class="flex-row flex-space-between">
-                  <h1>WowDoor
-                    <a href="https://github.com/smddzcy/WowDoor" target="_blank"><i class="fa fa-github"></i></a>
-                  </h1>
-                </div>
-                <p>An IoT device that gives the ability to lock &amp; unlock doors with a smartphone.</p>
-              </div>
-            </section>
-            <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>BUYemek
                     <a href="https://github.com/smddzcy/BUYemek-iOS" target="_blank"><i class="fa fa-github"></i></a>
@@ -221,10 +181,48 @@
               </div>
             </section>
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
+              <div class="col-sm-12">
+                <div class="flex-row flex-space-between">
+                  <h1>SkateMate
+                    <a href="https://github.com/smddzcy/SkateMate" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="http://www.getskatemate.com/" target="_blank"><i class="fa fa-globe"></i></a>
+                  </h1>
+                </div>
+                <p>SkateMate enables skaters to find and share new spots, and connect with each other in real-time. It was our ENG 493 - Launching a Successful Software Startup course project in 2016 Fall term, at Boğaziçi University. I was responsible for the development of the mobile application (cross-platform, built with Ionic).</p>
               </div>
-              <div class="col-sm-12 col-md-11">
+            </section>
+            <section class="description project">
+              <div class="col-sm-12">
+                <div class="flex-row flex-space-between">
+                  <h1>Wower
+                    <a href="https://github.com/smddzcy/Wower" target="_blank"><i class="fa fa-github"></i></a>
+                  </h1>
+                </div>
+                <p>An app for cyber attack protection which protects the user's files and tracks the attacker. Built by WowTeam for COMODO & COMPEC Hackathon at Boğaziçi University and won the 1st prize. I was responsible for the development of the desktop app (Electron, Node.js, AngularJS) and its RESTful API (Ruby on Rails).</p>
+              </div>
+            </section>
+            <section class="description project">
+              <div class="col-sm-12">
+                <div class="flex-row flex-space-between">
+                  <h1>WowDoor
+                    <a href="https://github.com/smddzcy/WowDoor" target="_blank"><i class="fa fa-github"></i></a>
+                  </h1>
+                </div>
+                <p>An IoT device that gives the ability to lock &amp; unlock doors with a smartphone. Built by sudoers team for IoT Hackathon at Boğaziçi University, won the 1st prize.</p>
+              </div>
+            </section>
+            <section class="description project">
+              <div class="col-sm-12">
+                <div class="flex-row flex-space-between">
+                  <h1>EngelsizMenu
+                    <a href="https://github.com/smddzcy/EngelsizMenu" target="_blank"><i class="fa fa-github"></i></a>
+                  </h1>
+                </div>
+                <p>Accessible, easy-to-use restaurant menu app for blind and visually impaired. I was responsible for the development of the RESTful API and iOS application.</p>
+              </div>
+            </section>
+            <section class="description project">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>dekrypt
                     <a href="https://github.com/smddzcy/dekrypt" target="_blank"><i class="fa fa-github"></i></a>
@@ -234,10 +232,7 @@
               </div>
             </section>
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>IlanTakip
                     <a href="https://github.com/smddzcy/ilanTakip" target="_blank"><i class="fa fa-github"></i></a>
@@ -247,10 +242,7 @@
               </div>
             </section>
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>Scan
                     <a href="https://github.com/smddzcy/Scan" target="_blank"><i class="fa fa-github"></i></a>
@@ -260,15 +252,12 @@
               </div>
             </section>
 
-          <div class="col-lg-offset-1">
+          <div class="padding-left-bs">
             <h1 class="section-header">Volunteering Experience</h1>
           </div>
 
           <section class="description experience">
-            <div class="hidden-sm hidden-xs col-md-1 col-caret">
-              <i class="fa fa-angle-right"></i>
-            </div>
-            <div class="col-sm-12 col-md-11">
+            <div class="col-sm-12">
               <div class="flex-row flex-space-between">
                 <div class="padding-right-10">
                   <h1>Full Stack Developer</h1>
@@ -285,16 +274,13 @@
 
       </div>
 
-      <div class="flex-row flex-start col-md-6 half-page">
-        <div class="col-lg-offset-1">
+      <div class="flex-row flex-start col-md-6 half-page" id="second-half-page">
+        <div class="padding-left-bs">
           <h1 class="section-header">Education</h1>
         </div>
 
         <section class="description education">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div class="padding-right-10">
                 <h1>B.S. Computer Engineering</h1>
@@ -306,36 +292,33 @@
           </div>
         </section>
 
-        <div class="col-lg-offset-1">
+        <div class="padding-left-bs">
           <h1 class="section-header">Skills</h1>
         </div>
 
         <section class="description skills">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
-              <li>Full-Stack Web Development</li>
-              <li>Object-Oriented Analysis, Design, Programming (OOA/OOD/OOP)</li>
-              <li>Algorithm Design and Analysis</li>
-              <li>Behavior / Test Driven Development - Unit, Integration, System Testing</li>
-              <li>Agile Methodologies - Scrum, Kanban</li>
-              <li>Fluent in Ruby, Ruby on Rails, PHP, JavaScript (ES5 &amp; ES6), CoffeeScript, AngularJS, HTML5, CSS3, LESS/SASS</li>
-              <li>Fluent in Full OO Languages - Java, C#</li>
-              <li>Familiar with Go, Scala, Haskell, C, C++ and technologies like Node.js, React/Redux, AWS</li>
-              <li>Experience in RDBMS and ORM - MySQL, PostgreSQL, Active Record</li>
-              <li>Proficient in Linux Server Configuration &amp; Administration</li>
+          <div class="col-sm-12">
+            <ul class="custom-bullets">
+              <li><span>Full-Stack Web Development</span></li>
+              <li><span>Object-Oriented Analysis, Design, Programming (OOA/OOD/OOP)</span></li>
+              <li><span>Algorithm Design and Analysis</span></li>
+              <li><span>Behavior / Test Driven Development - Unit, Integration, System Testing</span></li>
+              <li><span>Agile Methodologies - Scrum, Kanban</span></li>
+              <li><span>Fluent in Ruby, Ruby on Rails, PHP, JavaScript (ES5 &amp; ES6), CoffeeScript, AngularJS, HTML5, CSS3, LESS/SASS</span></li>
+              <li><span>Fluent in Full OO Languages - Java, C#</span></li>
+              <li><span>Familiar with Go, Scala, Haskell, C, C++ and technologies like Node.js, React/Redux, AWS</span></li>
+              <li><span>Experience in RDBMS and ORM - MySQL, PostgreSQL, Active Record</span></li>
+              <li><span>Proficient in Linux Server Configuration &amp; Administration</span></li>
             </ul>
           </div>
         </section>
 
-        <div class="col-lg-offset-1">
+        <div class="padding-left-bs">
           <h1 class="section-header">Certifications</h1>
         </div>
 
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>Adwords Certification</h1>
@@ -347,10 +330,7 @@
           </div>
         </section>
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>Web Application Security Certification</h1>
@@ -361,10 +341,7 @@
           </div>
         </section>
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>Algorithms: Design and Analysis, Part 1</h1>
@@ -376,10 +353,7 @@
           </div>
         </section>
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>Algorithms: Design and Analysis, Part 2</h1>
@@ -391,10 +365,7 @@
           </div>
         </section>
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>Entrepreneurship 1</h1>
@@ -406,65 +377,55 @@
           </div>
         </section>
 
-        <div class="col-lg-offset-1">
+        <div class="padding-left-bs">
           <h1 class="section-header">Honors & Awards</h1>
         </div>
 
         <section class="description honors">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
+          <div class="col-sm-12 flex-row flex-space-between">
+            <ul class="custom-bullets">
               <div class="flex-row flex-space-between">
-                <li>
-                  Comodo Hackathon - 1st Place
-                </li>
+                <li><span>Comodo Hackathon - 1st Place</span></li>
                 <span class="date">12/2016</span>
               </div>
               <div class="flex-row flex-space-between">
-                <li>
-                  COMPEC Garaj Hackathon - 1st Place
-                </li>
+                <li><span>COMPEC Garaj Hackathon - 1st Place</span></li>
                 <span class="date">11/2015</span>
               </div>
               <div class="flex-row flex-space-between">
-                <li>
-                  Büyük Sıçrama IOT Hackathon - 1st Place
-                </li>
+                <li><span>Büyük Sıçrama IOT Hackathon - 1st Place</span></li>
                 <span class="date">05/2016</span>
               </div>
               <div class="flex-row flex-space-between">
-                <li>
-                  Boğaziçi TechSummit Hackathon - 2nd Place
-                </li>
+                <li><span>Boğaziçi TechSummit Hackathon - 2nd Place</span></li>
                 <span class="date">04/2016</span>
               </div>
               <div class="flex-row flex-space-between">
-                <li>
-                  UNFPA Innovation Day Project - 2nd Place
-                </li>
+                <li><span>UNFPA Innovation Day Project - 2nd Place</span></li>
                 <span class="date">06/2016</span>
               </div>
             </ul>
           </div>
         </section>
 
-        <div class="col-lg-offset-1">
+        <div class="padding-left-bs">
           <h1 class="section-header">Languages</h1>
         </div>
 
         <section class="description languages">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
+          <div class="col-sm-12 flex-row flex-space-between">
+            <ul class="custom-bullets">
               <li class="inline fifty">
-                <strong>Turkish</strong> - Native
+                <span><strong>Turkish</strong> - Native</span>
               </li>
               <li class="inline fifty">
-                <strong>English</strong> - C2, Proficient
+                <span><strong>English</strong> - C2, Proficient</span>
               </li>
               <li class="inline fifty">
-                <strong>French</strong> - A1, Elementary
+                <span><strong>French</strong> - A1, Elementary</span>
               </li>
               <li class="inline fifty">
-                <strong>German</strong> - B1, Intermediate
+                <span><strong>German</strong> - B1, Intermediate</span>
               </li>
             </ul>
           </div>

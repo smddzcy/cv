@@ -7,15 +7,18 @@ module.exports = function(grunt) {
 
     less: {
       dist: {
-        src: ['src/less/build.less'],
-        dest: 'dist/css/main.less.css'
+        files: {
+          'dist/css/main.less.css': 'src/less/build.less',
+          'dist/css/print.less.css': 'src/less/print.less',
+        }
       }
     },
 
     autoprefixer: {
       dist: {
         files: {
-          'dist/css/main.less.css': 'dist/css/main.less.css'
+          'dist/css/main.less.css': 'dist/css/main.less.css',
+          'dist/css/print.less.css': 'dist/css/print.less.css'
         },
         options: {
           browsers: ['last 2 versions', 'ie >= 8']
@@ -44,6 +47,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           basePath: 'src/html/',
+
           content: function() {
             var files = grunt.file.readJSON('src/html/contents.json');
             var content = {};
@@ -53,18 +57,22 @@ module.exports = function(grunt) {
             content.dev = grunt.config.dev;
             return content;
           },
+
           transforms: {
             trim: function(str) {
               return str.trim();
             },
+
             clearWhitespaces: function(str) {
               return str.replace(/\s+/g, '');
             },
+
             assignColor: function(str) {
               var colorSettings = grunt.file.readJSON('src/html/contents/color_palette.json'),
                 selectedColor = colorSettings.colorOptions[str] || 'initial';
               return selectedColor;
             },
+
             assignBgImg: function(imgUrl) {
               if (imgUrl) {
                 return "url('" + imgUrl + "') repeat";
@@ -73,6 +81,7 @@ module.exports = function(grunt) {
             }
           }
         },
+
         files: [{
           expand: true,
           cwd: 'src/html/',
@@ -92,9 +101,12 @@ module.exports = function(grunt) {
       options: {
         keepSpecialComments: 0
       },
+
       dist: {
-        src: 'dist/css/main.less.css',
-        dest: 'dist/css/main.min.less.css'
+        files: {
+          'dist/css/main.min.less.css': 'dist/css/main.less.css',
+          'dist/css/print.min.less.css': 'dist/css/print.less.css'
+        }
       }
     },
 

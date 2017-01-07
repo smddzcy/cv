@@ -92,6 +92,9 @@ h2 {
 .padding-right-10 {
   padding-right: 10px;
 }
+.padding-left-bs {
+  padding-left: .9375rem;
+}
 a,
 a:focus,
 a:hover,
@@ -101,15 +104,6 @@ a:visited {
 }
 a:hover {
   border-bottom: 1px #3E445A dotted;
-}
-.pic {
-  max-height: 185px;
-}
-.bordered-pic {
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  padding: 4px;
 }
 header {
   padding: 20px 25px !important;
@@ -161,10 +155,6 @@ main .half-page {
   padding-left: 0;
   padding-right: 0;
 }
-main .half-page:first-child {
-  margin-left: -2%;
-  margin-right: 2%;
-}
 main .description {
   padding-bottom: 10px;
   -ms-flex: 1 0 100%;
@@ -178,22 +168,10 @@ main .description h5,
 main .description h6 {
   margin-bottom: 3px;
 }
-main .description .col-caret {
-  width: 7%;
-  position: relative;
-  left: 3%;
-}
-main .description .col-caret + div {
-  width: 92%;
-  padding-right: 0;
-}
 main .description ul {
+  padding-left: 0;
   margin-bottom: 0;
-  padding-left: 7%;
   width: 100%;
-}
-main .description ul li {
-  padding-left: 3px;
 }
 main .description ul li.inline {
   float: left;
@@ -215,30 +193,45 @@ main .description .experience-dateloc {
 main .description .experience-dateloc .location {
   font-size: 14px;
 }
-@media (max-width: 999px) {
-  main .description .col-caret {
-    display: none;
-  }
-  main .description ul {
-    padding-left: 0 !important;
-  }
-  main .description li {
-    padding-left: 0 !important;
-  }
-}
 .col-md-12 {
   padding-right: 0;
+}
+.pic {
+  max-height: 185px;
+}
+.bordered-pic {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 4px;
+}
+.custom-bullets {
+  margin-left: 3px;
+}
+.custom-bullets li span {
+  position: relative;
+  left: -3px;
+}
+#first-half-page {
+  margin-left: -0.46875rem;
+  margin-right: 0.46875rem;
+}
+#second-half-page {
+  margin-left: 0.46875rem;
+  margin-right: -0.46875rem;
 }
 @media (max-width: 999px) {
   .container {
     width: 90%;
   }
-  .half-page:first-child {
+  #first-half-page {
     margin-left: 0 !important;
     margin-right: 0 !important;
     padding-right: 17px;
   }
-  .half-page:nth-child(2) {
+  #second-half-page {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     padding-left: 17px;
   }
   header {
@@ -362,26 +355,10 @@ main .description .experience-dateloc .location {
   }
 }
 @media (max-width: 767px) {
-  .half-page:first-child {
+  #first-half-page {
     padding-right: 0;
   }
-  .half-page:nth-child(2) {
+  #second-half-page {
     padding-left: 0;
-  }
-}
-/*
-  Change accordingly, or change paper sizes while saving to PDF / printing
-  to get a one page CV / resume.
-*/
-@media print {
-  html {
-    min-width: 276mm;
-  }
-  h1,
-  h2 {
-    font-weight: initial !important;
-  }
-  .container {
-    width: 100%;
   }
 }

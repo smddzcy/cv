@@ -66,7 +66,7 @@
     </header>
 
     <main class="container">
-      <div class="flex-row flex-start col-md-6 half-page">
+      <div class="flex-row flex-start col-md-6 half-page" id="first-half-page">
         <!--(bake-start _if="experiences.length")-->
           <!--(bake _section-header.html title="Work Experience")-->
           <!--(bake _experience.html _foreach="experience:experiences")-->
@@ -76,10 +76,7 @@
           <!--(bake _section-header.html title="Open Source Projects")-->
           <!--(bake-start _foreach="project:projects")-->
             <section class="description project">
-              <div class="hidden-sm hidden-xs col-md-1 col-caret">
-                <i class="fa fa-angle-right"></i>
-              </div>
-              <div class="col-sm-12 col-md-11">
+              <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>{{project.name | trim}}
                     <!--(bake-start _if="project.github")-->
@@ -102,15 +99,12 @@
         <!--(bake-end)-->
       </div>
 
-      <div class="flex-row flex-start col-md-6 half-page">
+      <div class="flex-row flex-start col-md-6 half-page" id="second-half-page">
         <!--(bake-start _if="education.length")-->
         <!--(bake _section-header.html title="Education")-->
         <!--(bake-start _foreach="school:education")-->
         <section class="description education">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div class="padding-right-10">
                 <h1>{{school.degree | trim}}</h1>
@@ -131,10 +125,10 @@
         <!--(bake-start _if="skills.length")-->
         <!--(bake _section-header.html title="Skills")-->
         <section class="description skills">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
+          <div class="col-sm-12">
+            <ul class="custom-bullets">
               <!--(bake-start _foreach="skill:skills")-->
-              <li>{{skill | trim}}</li>
+              <li><span>{{skill | trim}}</span></li>
               <!--(bake-end)-->
             </ul>
           </div>
@@ -145,10 +139,7 @@
         <!--(bake _section-header.html title="Certifications")-->
         <!--(bake-start _foreach="certificate:certificates")-->
         <section class="description certificate">
-          <div class="hidden-sm hidden-xs col-md-1 col-caret">
-            <i class="fa fa-angle-right"></i>
-          </div>
-          <div class="col-sm-12 col-md-11">
+          <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
                 <h1>{{certificate.title | trim}}</h1>
@@ -169,13 +160,11 @@
         <!--(bake-start _if="honors.length")-->
         <!--(bake _section-header.html title="Honors & Awards")-->
         <section class="description honors">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
+          <div class="col-sm-12 flex-row flex-space-between">
+            <ul class="custom-bullets">
               <!--(bake-start _foreach="honor:honors")-->
               <div class="flex-row flex-space-between">
-                <li>
-                  {{honor.title | trim}}
-                </li>
+                <li><span>{{honor.title | trim}}</span></li>
                 <span class="date">{{honor.date | trim}}</span>
               </div>
               <!--(bake-end)-->
@@ -187,11 +176,11 @@
         <!--(bake-start _if="languages.length")-->
         <!--(bake _section-header.html title="Languages")-->
         <section class="description languages">
-          <div class="col-md-12 flex-row flex-space-between">
-            <ul>
+          <div class="col-sm-12 flex-row flex-space-between">
+            <ul class="custom-bullets">
               <!--(bake-start _foreach="language:languages")-->
               <li class="inline fifty">
-                <strong>{{language.name | trim}}</strong> - {{language.level | trim}}
+                <span><strong>{{language.name | trim}}</strong> - {{language.level | trim}}</span>
               </li>
               <!--(bake-end)-->
             </ul>

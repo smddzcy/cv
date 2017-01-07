@@ -1,0 +1,31 @@
+.pic {
+  max-height: 185px;
+}
+
+.bordered-pic {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 4px;
+}
+
+.custom-bullets {
+  @decreased-space: 3px;
+  margin-left: @decreased-space;
+
+  li span {
+    position: relative;
+    left: -@decreased-space;
+  }
+}
+
+@bs-col-padding-side: .9375rem;
+#first-half-page {
+  margin-left: -@bs-col-padding-side/2;
+  margin-right: @bs-col-padding-side/2;
+}
+
+#second-half-page {
+  margin-left: @bs-col-padding-side/2;
+  margin-right: -@bs-col-padding-side/2;
+}

@@ -29,11 +29,11 @@ module.exports = function(grunt) {
     watch: {
       less: {
         files: ['src/**/*.less'],
-        tasks: ['less', 'autoprefixer', 'cssmin', 'bake']
+        tasks: ['setDev:true', 'less', 'autoprefixer', 'cssmin', 'bake']
       },
       bake: {
         files: ['src/html/**/*'],
-        tasks: 'bake'
+        tasks: ['setDev:true', 'bake']
       },
       options: {
         livereload: {
@@ -86,7 +86,7 @@ module.exports = function(grunt) {
           expand: true,
           cwd: 'src/html/',
           src: ['**/*.html', '!**/_*.html'],
-          dest: ''
+          dest: 'dist/'
         }]
       }
     },
@@ -112,7 +112,16 @@ module.exports = function(grunt) {
 
     open: {
       dev: {
-        path: process.cwd() + '/index.html'
+        path: process.cwd() + '/dist/index.html'
+      }
+    },
+
+    copy: {
+      all: {
+        files: [
+          {expand: true, cwd: 'src/img/', src: ['**'], dest: 'dist/img/'},
+          {expand: true, cwd: 'src/fonts/', src: ['**'], dest: 'dist/fonts/'}
+        ]
       }
     }
   });
@@ -122,6 +131,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-open');
   grunt.loadNpmTasks('grunt-bake');
   grunt.loadNpmTasks('grunt-serve');
@@ -130,7 +140,7 @@ module.exports = function(grunt) {
     grunt.config.dev = newVal;
   });
   grunt.registerTask('process', ['clean:prebuild', 'less', 'autoprefixer',
-    'cssmin', 'bake'
+    'copy', 'cssmin', 'bake'
   ]);
 
   grunt.registerTask('default', ['setDev:true', 'process', 'open:dev', 'watch']);

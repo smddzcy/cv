@@ -7,10 +7,13 @@
   <body>
     <header class="container">
       <div class="flex-row flex-space-between">
+        <!--(bake-start _if="personal_info.photo")-->
         <div class="info-pic">
-          <img src="dist/img/photo.png" alt="Photo of {{personal_info.name}}"
+          <img src="{{personal_info.photo}}" alt="Photo of {{personal_info.name}}"
                class="pic bordered-pic"/>
         </div>
+        <!--(bake-end)-->
+
         <div class="flex-column info-left">
           <h1 class="name">{{personal_info.name | trim}}</h1>
           <h2 class="profession">{{personal_info.profession | trim}}</h2>
@@ -18,6 +21,7 @@
           <p>{{personal_info.summary | trim}}</p>
           <!--(bake-end)-->
         </div>
+
         <div class="flex-column flex-nowrap info-right">
           <!--(bake-start _if="personal_info.mail")-->
           <div>
@@ -25,36 +29,42 @@
             <i class="fa fa-envelope"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.phone")-->
           <div>
             <a href="tel:{{personal_info.phone}}">{{personal_info.phone | clearWhitespaces}}</a>
             <i class="fa fa-phone"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.address")-->
           <div>
             <a href="{{personal_info.address.url}}" target="_blank">{{personal_info.address.title | trim}}</a>
             <i class="fa fa-map-marker" style="margin-left: 2.5px; margin-right: 2.5px;"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.personal_site")-->
           <div>
             <a href="{{personal_info.personal_site.url | trim}}" target="_blank">{{personal_info.personal_site.title | trim}}</a>
             <i class="fa fa-globe"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.github")-->
           <div>
             <a href="{{personal_info.github.url | trim}}" target="_blank">{{personal_info.github.title | trim}}</a>
             <i class="fa fa-github"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.linkedin")-->
           <div>
             <a href="{{personal_info.linkedin.url | trim}}" target="_blank">{{personal_info.linkedin.title | trim}}</a>
             <i class="fa fa-linkedin"></i>
           </div>
           <!--(bake-end)-->
+
           <!--(bake-start _if="personal_info.hackerrank")-->
           <div>
             <a href="{{personal_info.hackerrank.url | trim}}" target="_blank">{{personal_info.hackerrank.title | trim}}</a>

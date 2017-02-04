@@ -87,7 +87,13 @@ h2 {
 }
 
 .padding-left-bs {
-  padding-left: .9375rem;
+  padding-left: @bs-col-padding-side;
+}
+
+@media screen and (max-width: @screen-sm-max) {
+  .padding-left-bs {
+    padding-left: 0;
+  }
 }
 
 a,

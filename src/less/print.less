@@ -9,17 +9,15 @@
     // min-height: @width * 297/210; // 297/210 = Height to width ratio of A4 Paper
   }
 
-  h1,
-  h2,
-  strong {
+  // Get rid of the double letters.
+  //
+  // NOTE: This can (and should) be removed when switched to a bold supporting
+  //       font. Current font (EB Garamond) is only available in weight 400.
+  * {
     font-weight: initial !important;
   }
 
   .container {
     width: 100%;
-  }
-
-  .padding-left-bs {
-    padding-left: 0 !important;
   }
 }

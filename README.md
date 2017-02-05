@@ -19,7 +19,7 @@ A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) 
 
 If you want it in the PDF format, you can print the page as a PDF, just like I do all the time. (*Just do not use Chrome to print, that has some real problems with printing*)
 
-**Note:** `src/html/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/dist/img/color-palette.jpg) or `dist/img/color-palette.jpg` file.
+**Note:** `src/html/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/src/img/color-palette.jpg) or `src/img/color-palette.jpg` file.
 
 ## Filling Your Information
 

@@ -85,7 +85,7 @@
         <!--(bake-start _if="projects.length")-->
           <!--(bake _section-header.html title="Open Source Projects")-->
           <!--(bake-start _foreach="project:projects")-->
-            <section class="description project">
+            <section class="project">
               <div class="col-sm-12">
                 <div class="flex-row flex-space-between">
                   <h1>{{project.name | trim}}
@@ -113,7 +113,7 @@
         <!--(bake-start _if="education.length")-->
         <!--(bake _section-header.html title="Education")-->
         <!--(bake-start _foreach="school:education")-->
-        <section class="description education">
+        <section class="education">
           <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div class="padding-right-10">
@@ -134,9 +134,9 @@
 
         <!--(bake-start _if="skills.length")-->
         <!--(bake _section-header.html title="Skills")-->
-        <section class="description skills">
-          <div class="col-sm-12 padding-left-bs">
-            <ul class="custom-bullets">
+        <section class="skills">
+          <div class="col-sm-12">
+            <ul class="bullets custom-bullets">
               <!--(bake-start _foreach="skill:skills")-->
               <li><span>{{skill | trim}}</span></li>
               <!--(bake-end)-->
@@ -148,7 +148,7 @@
         <!--(bake-start _if="certificates.length")-->
         <!--(bake _section-header.html title="Certifications")-->
         <!--(bake-start _foreach="certificate:certificates")-->
-        <section class="description certificate">
+        <section class="certificate">
           <div class="col-sm-12">
             <div class="flex-row flex-space-between">
               <div>
@@ -169,9 +169,9 @@
 
         <!--(bake-start _if="honors.length")-->
         <!--(bake _section-header.html title="Honors & Awards")-->
-        <section class="description honors">
+        <section class="honors">
           <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="custom-bullets">
+            <ul class="bullets custom-bullets">
               <!--(bake-start _foreach="honor:honors")-->
               <div class="flex-row flex-space-between">
                 <li><span>{{honor.title | trim}}</span></li>
@@ -185,9 +185,9 @@
 
         <!--(bake-start _if="languages.length")-->
         <!--(bake _section-header.html title="Languages")-->
-        <section class="description languages">
+        <section class="languages">
           <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="custom-bullets">
+            <ul class="bullets custom-bullets flex-row">
               <!--(bake-start _foreach="language:languages")-->
               <li class="inline fifty">
                 <span><strong>{{language.name | trim}}</strong> - {{language.level | trim}}</span>

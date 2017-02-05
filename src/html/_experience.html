@@ -1,4 +1,4 @@
-<section class="description experience">
+<section class="experience">
   <div class="col-sm-12">
     <div class="flex-row flex-space-between">
       <div class="padding-right-10">
@@ -20,7 +20,15 @@
       </div>
     </div>
     <!--(bake-start _if="experience.description")-->
-    <p>{{experience.description | trim}}</p>
+    <p class="description">{{experience.description | trim}}</p>
+    <!--(bake-end)-->
+
+    <!--(bake-start _if="experience.description_bullets")-->
+    <ul class="bullets custom-bullets">
+      <!--(bake-start _foreach="bullet:experience.description_bullets")-->
+      <li><span>{{bullet | trim}}</span></li>
+      <!--(bake-end)-->
+    </ul>
     <!--(bake-end)-->
   </div>
 </section>

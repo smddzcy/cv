@@ -148,7 +148,7 @@ As you can see, **HTML is allowed inside description values**.
   }]
 ```
 
-`data` and `description` fields are optional.
+`date` and `description` fields are optional.
 
 ### volunteering_experiences.json
 ```

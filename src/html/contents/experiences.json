@@ -17,4 +17,13 @@
     "Responsible for the frontend development of 2 company websites: <a href=\"http://www.infomsg.com\" target=\"_blank\">http://www.infomsg.com</a> and <a href=\"http://www.infoset.com.tr\" target=\"_blank\">http://www.infoset.com.tr</a>",
     "Doing both on-page and off-page SEO, website traffic growth. Also, translating the content from Turkish to English."
   ]
+}, {
+  "company": "Boğaziçi University Entrepreneurship Center",
+  "role": "Full Stack Developer",
+  "date": "09/2016 - Present",
+  "location": "Istanbul, Turkey",
+  "description_bullets": [
+    "Currently building a new web application with 5 other team members.",
+    "Technologies used: PHP (Laravel), MySQL, Javascript, HTML5, CSS3"
+  ]
 }]

@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="container">
-      <div class="flex-row flex-space-between">
+      <div class="flex-row flex-space-between flex-align-center">
         <!--(bake-start _if="personal_info.photo")-->
         <div class="info-pic">
           <img src="{{personal_info.photo}}" alt="Photo of {{personal_info.name}}"
@@ -103,9 +103,9 @@
           <!--(bake-end)-->
         <!--(bake-end)-->
 
-        <!--(bake-start _if="volunteering_experience.length")-->
+        <!--(bake-start _if="volunteering_experiences.length")-->
           <!--(bake _section-header.html title="Volunteering Experience")-->
-          <!--(bake _experience.html _foreach="experience:volunteering_experience")-->
+          <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
         <!--(bake-end)-->
       </div>
 
@@ -115,7 +115,7 @@
         <!--(bake-start _foreach="school:education")-->
         <section class="education">
           <div class="col-sm-12">
-            <div class="flex-row flex-space-between">
+            <div class="section-inner-header flex-row flex-space-between">
               <div class="padding-right-10">
                 <h1>{{school.degree | trim}}</h1>
                 <h2>{{school.name | trim}}</h2>
@@ -175,7 +175,9 @@
               <!--(bake-start _foreach="honor:honors")-->
               <div class="flex-row flex-space-between">
                 <li><span>{{honor.title | trim}}</span></li>
+                <!--(bake-start _if="honor.date")-->
                 <span class="date">{{honor.date | trim}}</span>
+                <!--(bake-end)-->
               </div>
               <!--(bake-end)-->
             </ul>
@@ -190,7 +192,8 @@
             <ul class="bullets custom-bullets flex-row">
               <!--(bake-start _foreach="language:languages")-->
               <li class="inline fifty">
-                <span><strong>{{language.name | trim}}</strong> - {{language.level | trim}}</span>
+                <span><strong>{{language.name | trim}}</strong>
+                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
               </li>
               <!--(bake-end)-->
             </ul>

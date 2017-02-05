@@ -1,8 +1,6 @@
-[
-  {
-    "name": "Boğaziçi University",
-    "degree": "B.S. Computer Engineering",
-    "date": "09/2015 - Present",
-    "description": "GPA: 3.67/4. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>."
-  }
-]
+[{
+  "name": "Boğaziçi University",
+  "degree": "B.S. Computer Engineering",
+  "date": "09/2015 - Present",
+  "description": "GPA: 3.67/4. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>."
+}]

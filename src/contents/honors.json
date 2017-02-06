@@ -1,16 +1,21 @@
 [{
   "title": "Comodo Hackathon - 1st Place",
-  "date": "12/2016"
+  "date": "12/2016",
+  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for its backend API and desktop application."
 }, {
   "title": "COMPEC Garaj Hackathon - 1st Place",
-  "date": "11/2015"
+  "date": "11/2015",
+  "description": "There were nearly 10 teams. We built a <a href=\"https://github.com/smddzcy/ESETGuvenlikOyunu\" target=\"_blank\">simple game</a> to give people some knowledge about online information security."
 }, {
   "title": "Büyük Sıçrama IOT Hackathon - 1st Place",
-  "date": "05/2016"
+  "date": "05/2016",
+  "description": "There were more than 20 teams. We built <a href=\"https://github.com/smddzcy/WowDoor\" target=\"_blank\">WowDoor</a> and I was responsible for its backend API (serverless architecture with Microsoft Azure)."
 }, {
   "title": "Boğaziçi TechSummit Hackathon - 2nd Place",
-  "date": "04/2016"
+  "date": "04/2016",
+  "description": "There were nearly 10 teams. I've built a mail classifier that uses machine learning (Naive Bayes) by myself."
 }, {
   "title": "UNFPA Innovation Day Project - 2nd Place",
-  "date": "06/2016"
+  "date": "06/2016",
+  "description": "We made a project to help spread the ideas of UNFPA."
 }]

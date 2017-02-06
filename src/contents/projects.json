@@ -29,4 +29,12 @@
   "name": "EngelsizMenu",
   "description": "Accessible, easy-to-use restaurant menu app for blind and visually impaired. I was responsible for the development of the RESTful API and iOS application.",
   "github": "https://github.com/smddzcy/EngelsizMenu"
+}, {
+  "name": "IlanTakip",
+  "description": "Automatic tracking system for some real-estate listing sites in Turkey.",
+  "github": "https://github.com/smddzcy/ilanTakip"
+}, {
+  "name": "dekrypt",
+  "description": "A command-line tool for automatic decryption/decipher of a number of encryption/cipher algorithms.",
+  "github": "https://github.com/smddzcy/dekrypt"
 }]

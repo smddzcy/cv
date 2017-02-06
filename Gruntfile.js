@@ -49,10 +49,10 @@ module.exports = function(grunt) {
           basePath: 'src/html/',
 
           content: function() {
-            var files = grunt.file.readJSON('src/html/contents.json');
+            var files = grunt.file.readJSON('src/contents.json');
             var content = {};
             for (var i = 0; i < files.length; i++) {
-              content[files[i]] = grunt.file.readJSON('src/html/contents/' + files[i] + '.json');
+              content[files[i]] = grunt.file.readJSON('src/contents/' + files[i] + '.json');
             }
             content.dev = grunt.config.dev;
             return content;
@@ -68,7 +68,7 @@ module.exports = function(grunt) {
             },
 
             assignColor: function(str) {
-              var colorSettings = grunt.file.readJSON('src/html/contents/color_palette.json'),
+              var colorSettings = grunt.file.readJSON('src/contents/color_palette.json'),
                 selectedColor = colorSettings.colorOptions[str] || 'initial';
               return selectedColor;
             },

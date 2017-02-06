@@ -13,13 +13,13 @@ A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) 
    npm install
    ```
 
-2. Fill in the `.json` files in `src/html/contents` with your information. [Click here to find out how to fill those files.](#filling-your-information)
+2. Fill in the `.json` files in `src/contents` with your information. [Click here to find out how to fill those files.](#filling-your-information)
 
 3. Run `grunt build` and get your fresh CV in the HTML format from `dist/index.html`.
 
 If you want it in the PDF format, you can print the page as a PDF, just like I do all the time. (*Just do not use Chrome to print, that has some real problems with printing*)
 
-**Note:** `src/html/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/src/img/color-palette.jpg) or `src/img/color-palette.jpg` file.
+**Note:** `src/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/src/img/color-palette.jpg) or `src/img/color-palette.jpg` file.
 
 ## Filling Your Information
 
@@ -210,7 +210,7 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 - [X] Carets on descriptions should be removed (or they should be optional), they're too distracting when the content is dense.
 - [ ] "Honors & Awards" part should definitely have descriptions.
 - [X] Print styles should be moved to its own file, and it should be called explicitly as a print stylesheet. (with `media="print"` in HTML)
-- [X] Documentation for color palette (`src/html/contents/color_palette.json`)
+- [X] Documentation for color palette (`src/contents/color_palette.json`)
 - [ ] Element ordering - Places of the elements should be changed easily
 - [ ] Font size - Font size should be optional, not hard-coded
 

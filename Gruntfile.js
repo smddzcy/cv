@@ -32,7 +32,7 @@ module.exports = function(grunt) {
         tasks: ['setDev:true', 'less', 'autoprefixer', 'cssmin', 'bake']
       },
       bake: {
-        files: ['src/html/**/*'],
+        files: ['src/html/**/*', 'src/contents/**/*'],
         tasks: ['setDev:true', 'bake']
       },
       options: {

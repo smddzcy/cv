@@ -171,13 +171,14 @@ You can use `description_bullets` instead of `description` just like in the `exp
 ```
   [{
     "title": "Comodo Hackathon - 1st Place",
-    "date": "12/2016"
+    "date": "12/2016",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }, {
     ...
   }]
 ```
 
-`date` is optional.
+`date` and `description` fields are optional.
 
 ### languages.json
 ```
@@ -192,7 +193,7 @@ You can use `description_bullets` instead of `description` just like in the `exp
   }]
 ```
 
-`level` is optional.
+`level` field is optional.
 
 ## Contributing
 
@@ -207,12 +208,7 @@ You can pick one of the TODO's below and start contributing right away. Thank yo
 
 ## TODO
 
-- [X] Carets on descriptions should be removed (or they should be optional), they're too distracting when the content is dense.
-- [ ] "Honors & Awards" part should definitely have descriptions.
-- [X] Print styles should be moved to its own file, and it should be called explicitly as a print stylesheet. (with `media="print"` in HTML)
-- [X] Documentation for color palette (`src/contents/color_palette.json`)
 - [ ] Element ordering - Places of the elements should be changed easily
-- [ ] Font size - Font size should be optional, not hard-coded
 
 ## License
 

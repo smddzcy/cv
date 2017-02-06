@@ -173,10 +173,15 @@
           <div class="col-sm-12 flex-row flex-space-between">
             <ul class="bullets custom-bullets">
               <!--(bake-start _foreach="honor:honors")-->
-              <div class="flex-row flex-space-between">
-                <li><span>{{honor.title | trim}}</span></li>
-                <!--(bake-start _if="honor.date")-->
-                <span class="date">{{honor.date | trim}}</span>
+              <div>
+                <div class="flex-row flex-space-between">
+                  <li><span><strong>{{honor.title | trim}}</strong></span></li>
+                  <!--(bake-start _if="honor.date")-->
+                  <span class="date">{{honor.date | trim}}</span>
+                  <!--(bake-end)-->
+                </div>
+                <!--(bake-start _if="honor.description")-->
+                <span>{{honor.description}}</span>
                 <!--(bake-end)-->
               </div>
               <!--(bake-end)-->

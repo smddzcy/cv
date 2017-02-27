@@ -1,7 +1,11 @@
 [{
+  "title": "TechSummit & IBM Hackathon 2017 - 1st Place",
+  "date": "02/2017",
+  "description": "There were 11 teams. We built <a href=\"https://github.com/smddzcy/hackathon-techsummit-2017\" target=\"_blank\">a smart bracelet for preventing harassment</a> and I was responsible for the backend (Node.js), machine learning (TensorFlow), and whole web application (Pug & Bootstrap)."
+}, {
   "title": "Comodo Hackathon - 1st Place",
   "date": "12/2016",
-  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for its backend API and desktop application."
+  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for the backend API and desktop application."
 }, {
   "title": "COMPEC Garaj Hackathon - 1st Place",
   "date": "11/2015",
@@ -9,9 +13,9 @@
 }, {
   "title": "Büyük Sıçrama IOT Hackathon - 1st Place",
   "date": "05/2016",
-  "description": "There were more than 20 teams. We built <a href=\"https://github.com/smddzcy/WowDoor\" target=\"_blank\">WowDoor</a> and I was responsible for its backend API (serverless architecture with Microsoft Azure)."
+  "description": "There were more than 20 teams. We built <a href=\"https://github.com/smddzcy/WowDoor\" target=\"_blank\">WowDoor</a> and I was responsible for the backend API (serverless architecture with Microsoft Azure)."
 }, {
-  "title": "Boğaziçi TechSummit Hackathon - 2nd Place",
+  "title": "TechSummit Hackathon 2016 - 2nd Place",
   "date": "04/2016",
   "description": "There were nearly 10 teams. I've built a mail classifier that uses machine learning (Naive Bayes) by myself."
 }, {

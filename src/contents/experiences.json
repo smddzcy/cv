@@ -19,11 +19,11 @@
   ]
 }, {
   "company": "Boğaziçi University Entrepreneurship Center",
-  "role": "Full Stack Developer",
+  "role": "Development Team Lead",
   "date": "09/2016 - Present",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Currently building a new web application with 5 other team members.",
-    "Technologies used: PHP (Laravel), MySQL, Javascript, HTML5, CSS3"
+    "Currently building a new web application called \"Bright\" with a team of 6 people.",
+    "Technologies used: PHP (Laravel), MySQL, Javascript, HTML5, CSS3."
   ]
 }]

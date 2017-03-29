@@ -206,7 +206,7 @@ You can use `description_bullets` instead of `description` just like in the `exp
 
 You can pick one of the TODO's below and start contributing right away. Thank you so much!
 
-## TODO
+## TODO
 
 - [ ] Element ordering - Places of the elements should be changed easily
 

@@ -1,4 +1,8 @@
 [{
+  "title": "Invent & COMPEC Data Analytics Hackathon - 3rd Place",
+  "date": "05/2017",
+  "description": "There were 20 teams. I <a href=\"https://github.com/smddzcy/InventCompecHackathon2017\" target=\"_blank\">built, tested and deployed 3 models</a> - convolutional neural network, multinomial logistic regression and multivariate linear regression - using TensorFlow to forecast sales quantities of a company using its 2 years of data."
+}, {
   "title": "TechSummit IBM Hackathon 2017 - 1st Place",
   "date": "02/2017",
   "description": "There were 11 teams. We built <a href=\"https://github.com/smddzcy/hackathon-techsummit-2017\" target=\"_blank\">a smart bracelet for preventing harassment</a> and I was responsible for the backend (Node.js), machine learning (TensorFlow), and whole web application (Pug & Bootstrap)."
@@ -7,9 +11,9 @@
   "date": "12/2016",
   "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for the backend API and desktop application."
 }, {
-  "title": "COMPEC Garaj Hackathon - 1st Place",
-  "date": "11/2015",
-  "description": "There were nearly 10 teams. We built a <a href=\"https://github.com/smddzcy/ESETGuvenlikOyunu\" target=\"_blank\">simple game</a> to give people some knowledge about online information security."
+  "title": "UNFPA Innovation Day Project - 2nd Place",
+  "date": "06/2016",
+  "description": "We made a project to help spread the ideas of United Nations Population Fund."
 }, {
   "title": "Büyük Sıçrama IOT Hackathon - 1st Place",
   "date": "05/2016",
@@ -19,7 +23,7 @@
   "date": "04/2016",
   "description": "There were nearly 10 teams. I've built a mail classifier that uses machine learning (Naive Bayes) by myself."
 }, {
-  "title": "UNFPA Innovation Day Project - 2nd Place",
-  "date": "06/2016",
-  "description": "We made a project to help spread the ideas of UNFPA."
+  "title": "COMPEC Garaj Hackathon - 1st Place",
+  "date": "11/2015",
+  "description": "There were nearly 10 teams. We built a <a href=\"https://github.com/smddzcy/ESETGuvenlikOyunu\" target=\"_blank\">simple game</a> to give people some knowledge about online information security."
 }]

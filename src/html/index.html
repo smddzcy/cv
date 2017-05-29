@@ -107,6 +107,22 @@
           <!--(bake _section-header.html title="Volunteering Experience")-->
           <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
         <!--(bake-end)-->
+
+        <!--(bake-start _if="languages.length")-->
+        <!--(bake _section-header.html title="Languages")-->
+        <section class="languages">
+          <div class="col-sm-12 flex-row flex-space-between">
+            <ul class="bullets custom-bullets flex-row">
+              <!--(bake-start _foreach="language:languages")-->
+              <li class="inline fifty">
+                <span><strong>{{language.name | trim}}</strong>
+                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
+              </li>
+              <!--(bake-end)-->
+            </ul>
+          </div>
+        </section>
+        <!--(bake-end)-->
       </div>
 
       <div class="flex-row flex-start col-md-6 half-page" id="second-half-page">
@@ -184,22 +200,6 @@
                 <span>{{honor.description}}</span>
                 <!--(bake-end)-->
               </div>
-              <!--(bake-end)-->
-            </ul>
-          </div>
-        </section>
-        <!--(bake-end)-->
-
-        <!--(bake-start _if="languages.length")-->
-        <!--(bake _section-header.html title="Languages")-->
-        <section class="languages">
-          <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="bullets custom-bullets flex-row">
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <span><strong>{{language.name | trim}}</strong>
-                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
-              </li>
               <!--(bake-end)-->
             </ul>
           </div>

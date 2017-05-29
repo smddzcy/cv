@@ -9,7 +9,7 @@
 }, {
   "title": "Comodo Hackathon - 1st Place",
   "date": "12/2016",
-  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a> and I was responsible for the backend API and desktop application."
+  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\">Wower</a>, and I was responsible for I was responsible for the development of the desktop app (Electron, Node.js, AngularJS) and its RESTful API (Ruby on Rails)."
 }, {
   "title": "UNFPA Innovation Day Project - 2nd Place",
   "date": "06/2016",

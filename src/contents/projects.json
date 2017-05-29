@@ -14,24 +14,24 @@
   "github": "https://github.com/smddzcy/BUYemek-iOS"
 }, {
   "name": "SkateMate",
-  "description": "SkateMate enables skaters to find and share new spots, and connect with each other in real-time. It was our ENG 493 - Launching a Successful Software Startup course project in 2016 Fall term, at Boğaziçi University.<br/>I was responsible for the development of the mobile application (cross-platform, built with Ionic).",
+  "description": "SkateMate enables skaters to find and share new spots, and connect with each other in real-time. It was our ENG 493 - Launching a Successful Software Startup course project in 2016 Fall term, at Boğaziçi University. I was responsible for the development of the mobile application (cross-platform, built with Ionic).",
   "github": "https://github.com/smddzcy/SkateMate",
   "link": "http://www.getskatemate.com/"
 }, {
   "name": "Panic Bracelet",
-  "description": "A smart bracelet that shows you the probability of being harassed in a neighborhood, and sends a message to your loved ones and the police when pressed. Built by WowTeam for TechSummit IBM Hackathon at Boğaziçi University and won the 1st prize.<br/>I ws responsible for the backend (Node.js), machine learning (TensorFlow), and whole web application (Pug & Bootstrap).",
+  "description": "A smart bracelet that shows you the probability of being harassed in a neighborhood, and sends a message to your loved ones and the police when pressed.",
   "github": "https://github.com/smddzcy/hackathon-techsummit-2017"
 }, {
   "name": "Wower",
-  "description": "An app for cyber attack protection which protects the user's files and tracks the attacker. Built by WowTeam for COMODO & COMPEC Hackathon at Boğaziçi University and won the 1st prize.<br/>I was responsible for the development of the desktop app (Electron, Node.js, AngularJS) and its RESTful API (Ruby on Rails).",
+  "description": "An app for cyber attack protection which protects the user's files and tracks the attacker.",
   "github": "https://github.com/smddzcy/Wower"
 }, {
   "name": "WowDoor",
-  "description": "An IoT device that gives the ability to lock &amp; unlock doors with a smartphone. Built by sudoers team for IoT Hackathon at Boğaziçi University, won the 1st prize.",
+  "description": "An IoT device that gives the ability to lock &amp; unlock doors with a smartphone.",
   "github": "https://github.com/smddzcy/WowDoor"
 }, {
   "name": "EngelsizMenu",
-  "description": "Accessible, easy-to-use restaurant menu app for blind and visually impaired. I was responsible for the development of the RESTful API and iOS application.",
+  "description": "Accessible, easy-to-use restaurant menu app for visually impaired.",
   "github": "https://github.com/smddzcy/EngelsizMenu"
 }, {
   "name": "IlanTakip",

@@ -11,20 +11,20 @@
 }, {
   "company": "Infoset Software",
   "role": "Software Engineer",
-  "date": "07/2016 - Present",
+  "date": "07/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Actively developing and maintaining the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\">infomessage</a>.",
+    "Developed and maintained the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\">infomessage</a>.",
     "Responsible for the frontend development of 2 company websites: <a href=\"http://www.infomsg.com\" target=\"_blank\">http://www.infomsg.com</a> and <a href=\"http://www.infoset.com.tr\" target=\"_blank\">http://www.infoset.com.tr</a>",
-    "Doing both on-page and off-page SEO. Translating the content from Turkish to English."
+    "Did both on-page and off-page SEO, got the company websites on the first page of Google for competitive keywords."
   ]
 }, {
   "company": "Boğaziçi University Entrepreneurship Center",
   "role": "Development Team Leader",
-  "date": "09/2016 - Present",
+  "date": "09/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Currently building a new web application called \"Bright\" with a team of 6 people.",
+    "Built and deployed a new web application called \"Bright\" with a team of 6 people.",
     "Technologies used: PHP (Laravel), Javascript (ES6 / ES2015), HTML5, CSS3."
   ]
 }]

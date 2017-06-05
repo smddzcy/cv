@@ -1,11 +1,17 @@
 [{
+  "company": "Google",
+  "role": "Software Engineering Intern",
+  "date": "06/2017 - Present",
+  "location": "Zürich, Switzerland",
+  "description_bullets": []
+}, {
   "company": "Pisano",
   "role": "Software Engineer",
-  "date": "06/2016 - Present",
+  "date": "06/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [
     "Full-stack web development using HTML5, LESS, AngularJS, CoffeeScript, Ruby on Rails.",
-    "Working in a team-based development environment using agile methodologies like Kanban and Scrum.",
+    "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
     "Implemented, tested and successfully launched the key web product Pisano Web Widget."
   ]
 }, {

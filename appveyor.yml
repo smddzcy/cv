@@ -12,7 +12,10 @@ install:
   - npm install -g grunt-cli
 
 test_script:
-  - node --version
+  - node --version && npm --version
   - grunt build
 
 build: off
+
+matrix:
+  fast_finish: true

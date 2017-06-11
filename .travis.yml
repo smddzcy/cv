@@ -1,0 +1,17 @@
+sudo: required
+dist: trusty
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+language: node_js
+node_js:
+  - "6"
+  - "7"
+cache:
+  directories:
+    - node_modules
+install:
+    - npm install
+script:
+    - grunt build

@@ -1,0 +1,17 @@
+environment:
+  matrix:
+    - nodejs_version: '6'
+    - nodejs_version: '7'
+
+cache:
+  - node_modules
+
+install:
+  - ps: Install-Product node $env:nodejs_version
+  - npm install
+
+test_script:
+  - node --version
+  - grunt build
+
+build: off

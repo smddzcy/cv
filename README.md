@@ -1,8 +1,11 @@
 # CV
 
-A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
+[![Build Status](https://travis-ci.org/smddzcy/cv.svg?branch=master)](https://travis-ci.org/smddzcy/cv)
+[![Build status](https://ci.appveyor.com/api/projects/status/nyqpn4ax25rkw1yf?svg=true)](https://ci.appveyor.com/project/Samed15956/cv)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE)
 
-[![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
+A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
 
 ## Creating Your CV
 

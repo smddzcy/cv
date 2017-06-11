@@ -9,6 +9,7 @@ cache:
 install:
   - ps: Install-Product node $env:nodejs_version
   - npm install
+  - path="%PATH%;%APPDATA%\npm"
 
 test_script:
   - node --version

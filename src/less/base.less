@@ -35,7 +35,7 @@ h2 {
 }
 // clearfix
 
-.container:after {
+.container:after, section:after {
   display: table;
   clear: both;
   content: "";
@@ -104,7 +104,7 @@ h2 {
   padding-left: @bs-col-padding-side;
 }
 
-@media screen and (max-width: @screen-sm-max) {
+@media (max-width: @screen-sm-max) {
   .padding-left-bs {
     padding-left: 0;
   }

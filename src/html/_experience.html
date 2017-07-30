@@ -23,7 +23,7 @@
     <p class="description">{{experience.description | trim}}</p>
     <!--(bake-end)-->
 
-    <!--(bake-start _if="experience.description_bullets")-->
+    <!--(bake-start _if="experience.description_bullets.length")-->
     <ul class="bullets custom-bullets">
       <!--(bake-start _foreach="bullet:experience.description_bullets")-->
       <li><span>{{bullet | trim}}</span></li>

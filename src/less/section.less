@@ -1,5 +1,7 @@
-.half-page > div:first-of-type .section-header {
-  margin-top: 0;
+@media (min-width: @screen-md-min) {
+  .half-page > div:first-of-type .section-header {
+    margin-top: 0;
+  }
 }
 
 .section-header {
@@ -15,9 +17,17 @@ main {
     .padding-sides-0();
   }
 
+  .block {
+    padding-bottom: 0.5rem;
+  }
+
   section {
     padding-bottom: 0.6rem;
     flex: 1 0 100%;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
 
     .bullets {
       .padding-left-bs();
@@ -50,6 +60,7 @@ main {
     p {
       padding: 0.3rem 0;
       margin-bottom: 0;
+      padding-bottom: 0;
       color: @grey;
       line-height: 1.3;
     }

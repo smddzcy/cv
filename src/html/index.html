@@ -78,11 +78,14 @@
     <main class="container">
       <div class="flex-row flex-start col-md-6 half-page" id="first-half-page">
         <!--(bake-start _if="experiences.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Work Experience")-->
           <!--(bake _experience.html _foreach="experience:experiences")-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="projects.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Open Source Projects")-->
           <!--(bake-start _foreach="project:projects")-->
             <section class="project">
@@ -101,109 +104,122 @@
               </div>
             </section>
           <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="volunteering_experiences.length")-->
+        <div class="block">
           <!--(bake _section-header.html title="Volunteering Experience")-->
           <!--(bake _experience.html _foreach="experience:volunteering_experiences")-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="languages.length")-->
-        <!--(bake _section-header.html title="Languages")-->
-        <section class="languages">
-          <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="bullets custom-bullets flex-row">
-              <!--(bake-start _foreach="language:languages")-->
-              <li class="inline fifty">
-                <span><strong>{{language.name | trim}}</strong>
-                  <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
-              </li>
-              <!--(bake-end)-->
-            </ul>
-          </div>
-        </section>
+        <div class="block">
+          <!--(bake _section-header.html title="Languages")-->
+          <section class="languages">
+            <div class="col-sm-12 flex-row flex-space-between">
+              <ul class="bullets custom-bullets flex-row">
+                <!--(bake-start _foreach="language:languages")-->
+                <li class="inline fifty">
+                  <span><strong>{{language.name | trim}}</strong>
+                    <!--(bake-start _if="language.level")-->- {{language.level | trim}}</span><!--(bake-end)-->
+                </li>
+                <!--(bake-end)-->
+              </ul>
+            </div>
+          </section>
+        </div>
         <!--(bake-end)-->
       </div>
 
       <div class="flex-row flex-start col-md-6 half-page" id="second-half-page">
         <!--(bake-start _if="education.length")-->
-        <!--(bake _section-header.html title="Education")-->
-        <!--(bake-start _foreach="school:education")-->
-        <section class="education">
-          <div class="col-sm-12">
-            <div class="section-inner-header flex-row flex-space-between">
-              <div class="padding-right-10">
-                <h1>{{school.degree | trim}}</h1>
-                <h2>{{school.name | trim}}</h2>
+        <div class="block">
+          <!--(bake _section-header.html title="Education")-->
+          <!--(bake-start _foreach="school:education")-->
+          <section class="education">
+            <div class="col-sm-12">
+              <div class="section-inner-header flex-row flex-space-between">
+                <div class="padding-right-10">
+                  <h1>{{school.degree | trim}}</h1>
+                  <h2>{{school.name | trim}}</h2>
+                </div>
+                <!--(bake-start _if="school.date")-->
+                <h6 class="date">{{school.date | trim}}</h6>
+                <!--(bake-end)-->
               </div>
-              <!--(bake-start _if="school.date")-->
-              <h6 class="date">{{school.date | trim}}</h6>
+              <!--(bake-start _if="school.description")-->
+              <p>{{school.description | trim}}</p>
               <!--(bake-end)-->
             </div>
-            <!--(bake-start _if="school.description")-->
-            <p>{{school.description | trim}}</p>
-            <!--(bake-end)-->
-          </div>
-        </section>
-        <!--(bake-end)-->
+          </section>
+          <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="skills.length")-->
-        <!--(bake _section-header.html title="Skills")-->
-        <section class="skills">
-          <div class="col-sm-12">
-            <ul class="bullets custom-bullets">
-              <!--(bake-start _foreach="skill:skills")-->
-              <li><span>{{skill | trim}}</span></li>
-              <!--(bake-end)-->
-            </ul>
-          </div>
-        </section>
+        <div class="block">
+          <!--(bake _section-header.html title="Skills")-->
+          <section class="skills">
+            <div class="col-sm-12">
+              <ul class="bullets custom-bullets">
+                <!--(bake-start _foreach="skill:skills")-->
+                <li><span>{{skill | trim}}</span></li>
+                <!--(bake-end)-->
+              </ul>
+            </div>
+          </section>
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="certificates.length")-->
-        <!--(bake _section-header.html title="Certifications")-->
-        <!--(bake-start _foreach="certificate:certificates")-->
-        <section class="certificate">
-          <div class="col-sm-12">
-            <div class="flex-row flex-space-between">
-              <div>
-                <h1>{{certificate.title | trim}}</h1>
-                <h2>{{certificate.authority | trim}}</h2>
+        <div class="block">
+          <!--(bake _section-header.html title="Certifications")-->
+          <!--(bake-start _foreach="certificate:certificates")-->
+          <section class="certificate">
+            <div class="col-sm-12">
+              <div class="flex-row flex-space-between">
+                <div>
+                  <h1>{{certificate.title | trim}}</h1>
+                  <h2>{{certificate.authority | trim}}</h2>
+                </div>
+                <!--(bake-start _if="certificate.date")-->
+                <h6 class="date">{{certificate.date | trim}}</h6>
+                <!--(bake-end)-->
               </div>
-              <!--(bake-start _if="certificate.date")-->
-              <h6 class="date">{{certificate.date | trim}}</h6>
+              <!--(bake-start _if="certificate.description")-->
+              <p>{{certificate.description | trim}}</p>
               <!--(bake-end)-->
             </div>
-            <!--(bake-start _if="certificate.description")-->
-            <p>{{certificate.description | trim}}</p>
-            <!--(bake-end)-->
-          </div>
-        </section>
-        <!--(bake-end)-->
+          </section>
+          <!--(bake-end)-->
+        </div>
         <!--(bake-end)-->
 
         <!--(bake-start _if="honors.length")-->
-        <!--(bake _section-header.html title="Honors & Awards")-->
-        <section class="honors">
-          <div class="col-sm-12 flex-row flex-space-between">
-            <ul class="bullets custom-bullets">
-              <!--(bake-start _foreach="honor:honors")-->
-              <div>
-                <div class="flex-row flex-space-between">
-                  <li><span><strong>{{honor.title | trim}}</strong></span></li>
-                  <!--(bake-start _if="honor.date")-->
-                  <span class="date">{{honor.date | trim}}</span>
+        <div class="block">
+          <!--(bake _section-header.html title="Honors & Awards")-->
+          <section class="honors">
+            <div class="col-sm-12 flex-row flex-space-between">
+              <ul class="bullets custom-bullets">
+                <!--(bake-start _foreach="honor:honors")-->
+                <div>
+                  <div class="flex-row flex-space-between">
+                    <li><span><strong>{{honor.title | trim}}</strong></span></li>
+                    <!--(bake-start _if="honor.date")-->
+                    <span class="date">{{honor.date | trim}}</span>
+                    <!--(bake-end)-->
+                  </div>
+                  <!--(bake-start _if="honor.description")-->
+                  <span>{{honor.description}}</span>
                   <!--(bake-end)-->
                 </div>
-                <!--(bake-start _if="honor.description")-->
-                <span>{{honor.description}}</span>
                 <!--(bake-end)-->
-              </div>
-              <!--(bake-end)-->
-            </ul>
-          </div>
-        </section>
+              </ul>
+            </div>
+          </section>
+        </div>
         <!--(bake-end)-->
       </div>
     </main>

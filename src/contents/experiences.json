@@ -3,16 +3,19 @@
   "role": "Software Engineering Intern",
   "date": "06/2017 - Present",
   "location": "Zürich, Switzerland",
-  "description_bullets": []
+  "description_bullets": [
+    "Built and tested the backend of a mid-size product feature.",
+    "Built a pipeline to collect user statistics and do data analysis."
+  ]
 }, {
   "company": "Pisano",
   "role": "Software Engineer",
   "date": "06/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Full-stack web development using HTML5, LESS, AngularJS, CoffeeScript, Ruby on Rails.",
+    "Full-stack web development using Ruby on Rails, AngularJS, CoffeeScript, HTML5, LESS.",
     "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
-    "Implemented, tested and successfully launched the key web product Pisano Web Widget."
+    "Built, tested and successfully launched the key web product Pisano Web Widget."
   ]
 }, {
   "company": "Infoset Software",

@@ -52,7 +52,8 @@ If you want it in the PDF format, you can print the page as a PDF, just like I d
     "hackerrank": {
       "title": "hackerrank.com/smddzcy",
       "url": "https://www.hackerrank.com/smddzcy"
-    }
+    },
+    "google_analytics": "UA-11122333-4"
   }
 ```
 

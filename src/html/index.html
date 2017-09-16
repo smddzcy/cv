@@ -226,5 +226,15 @@
     <!--(bake-start _if="dev=='true'")-->
     <script src="http://localhost:9002/livereload.js"></script>
     <!--(bake-end)-->
+    <!--(bake-start _if="personal_info.google_analytics")-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ personal_info.google_analytics }}"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', '{{ personal_info.google_analytics }}');
+    </script>
+    <!--(bake-end)-->
   </body>
 </html>

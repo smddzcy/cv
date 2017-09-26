@@ -1,23 +1,22 @@
-/*
-  Change accordingly, or change paper sizes while saving to PDF / printing
-  to get a one page CV / resume.
-*/
-@width: 300mm;
 @media print {
-  html {
-    min-width: @width;
-    // min-height: @width * 297/210; // 297/210 = Height to width ratio of A4 Paper
-  }
-
   // Get rid of the double letters.
   //
-  // NOTE: This can (and should) be removed when switched to a bold supporting
-  //       font. Current font (EB Garamond) is only available in weight 400.
+  // NOTE: This should be removed when we switch to fond that has bold weights (600+).
+  //       Current font (EB Garamond) is only available in weight 400.
   * {
     font-weight: initial !important;
   }
 
   .container {
-    width: 100%;
+    width: 100% !important;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+  }
+
+  section {
+    page-break-before: avoid;
   }
 }

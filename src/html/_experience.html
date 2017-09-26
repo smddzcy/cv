@@ -1,34 +1,32 @@
 <section class="experience">
-  <div class="col-sm-12">
-    <div class="section-inner-header flex-row flex-space-between">
-      <div class="padding-right-10">
-        <h1>{{experience.role | trim}}</h1>
-        <!--(bake-start _if="experience.company")-->
-          <h2>{{experience.company | trim}}</h2>
-        <!--(bake-end)-->
-        <!--(bake-start _if="experience.organization")-->
-          <h2>{{experience.organization | trim}}</h2>
-        <!--(bake-end)-->
-      </div>
-      <div class="experience-dateloc">
-        <!--(bake-start _if="experience.date")-->
-        <h6 class="date">{{experience.date | trim}}</h6>
-        <!--(bake-end)-->
-        <!--(bake-start _if="experience.location")-->
-        <h6 class="location">{{experience.location | trim}}</h6>
-        <!--(bake-end)-->
-      </div>
-    </div>
-    <!--(bake-start _if="experience.description")-->
-    <p class="description">{{experience.description | trim}}</p>
-    <!--(bake-end)-->
-
-    <!--(bake-start _if="experience.description_bullets.length")-->
-    <ul class="bullets custom-bullets">
-      <!--(bake-start _foreach="bullet:experience.description_bullets")-->
-      <li><span>{{bullet | trim}}</span></li>
+  <div class="section-inner-header flex-row flex-nowrap flex-space-between">
+    <div class="padding-right-10">
+      <h1>{{experience.role | trim}}</h1>
+      <!--(bake-start _if="experience.company")-->
+        <h2>{{experience.company | trim}}</h2>
       <!--(bake-end)-->
-    </ul>
-    <!--(bake-end)-->
+      <!--(bake-start _if="experience.organization")-->
+        <h2>{{experience.organization | trim}}</h2>
+      <!--(bake-end)-->
+    </div>
+    <div class="experience-dateloc">
+      <!--(bake-start _if="experience.date")-->
+      <h6 class="date">{{experience.date | trim}}</h6>
+      <!--(bake-end)-->
+      <!--(bake-start _if="experience.location")-->
+      <h6 class="location">{{experience.location | trim}}</h6>
+      <!--(bake-end)-->
+    </div>
   </div>
+  <!--(bake-start _if="experience.description")-->
+  <p class="description">{{experience.description | trim}}</p>
+  <!--(bake-end)-->
+
+  <!--(bake-start _if="experience.description_bullets.length")-->
+  <ul class="bullets">
+    <!--(bake-start _foreach="bullet:experience.description_bullets")-->
+    <li><span>{{bullet | trim}}</span></li>
+    <!--(bake-end)-->
+  </ul>
+  <!--(bake-end)-->
 </section>

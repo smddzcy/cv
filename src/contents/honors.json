@@ -1,4 +1,8 @@
 [{
+  "title": "Ford Otosan OpenXC Hackathon - 3rd Place",
+  "date": "11/2017",
+  "description": "There were 26 teams. We built <a href=\"https://github.com/smddzcy/ford-copilot/\" target=\"_blank\">a real-time data analysis application for cars</a>, that detects potential car crashes and sends emergency texts, shows the cheapest nearby gas stations with their gas efficiencies, shows the speed limits of your road and so on."
+},{
   "title": "Invent & COMPEC Data Analytics Hackathon - 3rd Place",
   "date": "05/2017",
   "description": "There were 20 teams. I <a href=\"https://github.com/smddzcy/InventCompecHackathon2017\" target=\"_blank\">built, tested and deployed 3 ML models</a> - neural network, multinomial logistic regression and multivariate linear regression - using TensorFlow to forecast sales quantities of a company using its 2 years of data."

@@ -1,6 +1,11 @@
 [{
+  "name": "The University of Texas at Austin",
+  "degree": "B.S. Computer Science",
+  "date": "01/2018 - Present",
+  "description": "Exchange student for the spring semester. Attended <a href=\"http://energyolympiad.com/\" target=\"_blank\" rel=\"nofollow\">Longhorn Energy Summit</a> and <a href=\"https://cns.utexas.edu/tides/undergraduate/events-workshops/science-sprints\" target=\"_blank\" rel=\"nofollow\">Science Sprint</a>."
+}, {
   "name": "Boğaziçi University",
   "degree": "B.S. Computer Engineering",
   "date": "09/2015 - Present",
-  "description": "CGPA: 3.82/4.0, GPA: 4.0/4.0. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>. Founding member of BÜGAK (Boğaziçi University Futurism Club)."
+  "description": "CGPA: 3.82/4.0, GPA: 4.0/4.0. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\" rel=\"nofollow\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>. Founding member of BÜGAK (Boğaziçi University Futurism Club)."
 }]

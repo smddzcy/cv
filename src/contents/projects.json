@@ -1,4 +1,8 @@
 [{
+  "name": "CV",
+  "description": "A simple, modern CV/resume template. This CV is built using this template.",
+  "github": "https://github.com/smddzcy/cv"
+}, {
   "name": "Chrome Meme Search",
   "description": "A Chrome extension that lets you make spotlight search for memes.",
   "github": "https://github.com/smddzcy/chrome-meme-search"

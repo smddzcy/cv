@@ -8,7 +8,7 @@
   "github": "https://github.com/smddzcy/chrome-meme-search"
 }, {
   "name": "BounCoursePlanner",
-  "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule, which has the less conflicts and most free hours they want.",
+  "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule for a set of courses, which has the least conflicts and most free hours.",
   "github": "https://github.com/smddzcy/BounCoursePlanner",
   "link": "http://www.smddzcy.com/BounCoursePlanner/"
 }, {

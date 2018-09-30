@@ -22,7 +22,7 @@ A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) 
 
 If you want it in the PDF format, you can print the page as a PDF from your browser, just like I do all the time.
 
-**Note:** `src/contents/color_palette.json` contains the color settings of your CV. There are some fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/src/img/color-palette.jpg) or `src/img/color-palette.jpg` file.
+**Note:** `src/contents/color_palette.json` contains the color settings of your CV. There is a fixed set of colors, and you can look at your options from that file (`colorOptions` field) or [here](https://raw.githubusercontent.com/smddzcy/cv/master/src/img/color-palette.jpg) or `src/img/color-palette.jpg` file.
 
 ## Filling Your Information
 

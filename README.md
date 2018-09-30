@@ -205,7 +205,7 @@ You can use `description_bullets` instead of `description` just like in the `exp
 2. Clone the repo (`git clone https://github.com/-YOUR NAME-/cv.git`)
 3. Install the dependencies with `npm install`.
 4. Run `grunt` and keep it open while making your changes. Please keep the default JSON files while contributing, since I serve my CV to some places directly from this repo.
-6. When you're finished; commit (`git commit -am "YOUR COMMIT MESSAGE"`) and push (`git push`) your changes.
+6. When you're done, commit (`git commit -am "YOUR COMMIT MESSAGE"`) and push (`git push`) your changes.
 7. Make a pull request, from [here](https://github.com/smddzcy/cv/compare).
 
 You can pick one of the TODO's below and start contributing right away. Thank you so much!

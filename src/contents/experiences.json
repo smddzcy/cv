@@ -1,10 +1,16 @@
 [{
-  "company": "Pisano",
+  "company": "Lisa AI",
   "role": "Software Engineer",
+  "date": "09/2018 - Present",
+  "description": ""
+}, {
+  "company": "Pisano",
+  "role": "Lead Software Engineer",
   "date": "09/2017 - Present",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Currently working on an MVP of a new product.",
+    "Designed the architecture of, built, and deployed Pisano Analytics.",
+    "Organized the first Pisano Hackathon. (https://hackathon.pisano.co/)",
     "Led the web product team for 5 months. Designed the new architecture of <a href=\"https://www.pisano.co/en/widget-channels/\" rel=\"nofollow\" target=\"_blank\">Pisano Web Widget</a> and built most of the production system.",
     "Extensively used ES6/ES7, React, Redux, Redux-Saga."
   ]

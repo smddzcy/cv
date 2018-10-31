@@ -29,29 +29,28 @@ If you want it in the PDF format, you can print the page as a PDF from your brow
 ### personal_info.json
 ```
   {
-    "name": "Samed Düzçay",
-    "profession": "Software Engineer",
+    "name": "Hakan Turgay",
+    "profession": "Software Engineering",
     "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-    "mail": "samedduzcay@gmail.com",
+    "mail": "hakantrg@outlook.com",
     "address": {
-      "title": "Şişli, Istanbul, TURKEY",
-      "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"
+      "title": " Istanbul, TURKEY"
     },
     "personal_site": {
-      "title": "smddzcy.com",
-      "url": "http://www.smddzcy.com/"
+      "title": "",
+      "url": ""
     },
     "github": {
-      "title": "github.com/smddzcy",
-      "url": "https://github.com/smddzcy"
+      "title": "github.com/turgayh",
+      "url": "https://github.com/turgayh"
     },
     "linkedin": {
-      "title": "linkedin.com/in/smddzcy",
-      "url": "https://www.linkedin.com/in/smddzcy"
+      "title": "linkedin.com/in/hakan-turgay",
+      "url": "https://www.linkedin.com/in/hakan-turğay"
     },
     "hackerrank": {
-      "title": "hackerrank.com/smddzcy",
-      "url": "https://www.hackerrank.com/smddzcy"
+      "title": "hackerrank.com/hakantrg1",
+      "url": "https://www.hackerrank.com/hakantrg1"
     },
     "google_analytics": "UA-11122333-4"
   }
@@ -69,12 +68,12 @@ Every field is optional, except `name` and `profession`. Also, you can include a
 ### experiences.json
 ```
 [{
-  "company": "Pisano",
-  "role": "Software Engineer",
-  "date": "06/2016 - Present",
+  "company": "ITU Cekirdek",
+  "role": "Web Developer",
+  "date": "07/2015 - 09/2015",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Full-stack web development using modern technologies: HTML5, LESS, AngularJS, CoffeeScript, Ruby on Rails.",
+    "Full-stack web development using modern technologies: HTML5, LESS, AngularJS",
     "Working in a team-based development environment using agile methodologies like Kanban and Scrum."
   ]
 }, {

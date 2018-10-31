@@ -1,27 +1,26 @@
 {
-  "name": "Samed Duzcay",
+  "name": "Hakan Turgay",
   "profession": "Software Engineer",
   "summary": "A confident, self-motivated software engineer with 5 years of experience in full-stack application development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-  "mail": "samedduzcay@gmail.com",
+  "mail": "hakantrg@outlook.com",
   "address": {
-    "title": "Istanbul, Turkey",
-    "url": "https://www.google.com.tr/maps/place/W+21st+St,+Austin,+TX+78705/@30.2839176,-97.7457211,17z"
+    "title": "Istanbul, Turkey"
   },
   "personal_site": {
-    "title": "smddzcy.com",
-    "url": "http://www.smddzcy.com/"
+    "title": "",
+    "url": ""
   },
   "github": {
-    "title": "github.com/smddzcy",
-    "url": "https://github.com/smddzcy"
+    "title": "github.com/turgayh",
+    "url": "https://github.com/turgayh"
   },
   "linkedin": {
-    "title": "linkedin.com/in/smddzcy",
-    "url": "https://www.linkedin.com/in/smddzcy"
+    "title": "linkedin.com/in/hakan-turgay",
+    "url": "https://www.linkedin.com/in/hakan-turğay"
   },
   "hackerrank": {
-    "title": "hackerrank.com/smddzcy",
-    "url": "https://www.hackerrank.com/smddzcy"
+    "title": "hackerrank.com/hakantrg1",
+    "url": "https://www.hackerrank.com/hakantrg1"
   },
   "google_analytics": "UA-43755905-9"
 }

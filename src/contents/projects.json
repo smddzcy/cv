@@ -1,52 +1,9 @@
 [{
   "name": "CV",
   "description": "A simple, modern CV/resume template. This CV is built using this template.",
-  "github": "https://github.com/smddzcy/cv"
+  "github": "https://github.com/turgayh/cv"
 }, {
-  "name": "Chrome Meme Search",
-  "description": "A Chrome extension that lets you make spotlight search for memes.",
-  "github": "https://github.com/smddzcy/chrome-meme-search"
-}, {
-  "name": "BounCoursePlanner",
-  "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule for a set of courses, which has the least conflicts and most free hours.",
-  "github": "https://github.com/smddzcy/BounCoursePlanner",
-  "link": "http://www.smddzcy.com/BounCoursePlanner/"
-}, {
-  "name": "BUEvents",
-  "description": "Events calendar for Boğaziçi University. It's the only events calendar since there isn't any official one.",
-  "github": "https://github.com/smddzcy/BUEvents",
-  "link": "http://www.smddzcy.com/BUEvents/"
-}, {
-  "name": "BUYemek",
-  "description": "An iOS app for Boğaziçi University's cafeteria. There is also a separate project for its <a href=\"https://github.com/smddzcy/BUYemek\" target=\"_blank\" rel=\"nofollow\">REST API</a>.",
-  "github": "https://github.com/smddzcy/BUYemek-iOS"
-}, {
-  "name": "SkateMate",
-  "description": "SkateMate enables skaters to find and share new spots, and connect with each other in real-time. It was our ENG 493 - Launching a Successful Software Startup course project in 2016 Fall term, at Boğaziçi University. I was responsible for the development of the mobile application (cross-platform, built with Ionic).",
-  "github": "https://github.com/smddzcy/SkateMate",
-  "link": "http://www.getskatemate.com/"
-}, {
-  "name": "Panic Bracelet",
-  "description": "A smart bracelet that shows you the probability of being harassed in a neighborhood, and sends a message to your loved ones and the police when pressed.",
-  "github": "https://github.com/smddzcy/hackathon-techsummit-2017"
-}, {
-  "name": "Wower",
-  "description": "An app for cyber attack protection which protects the user's files and tracks the attacker.",
-  "github": "https://github.com/smddzcy/Wower"
-}, {
-  "name": "WowDoor",
-  "description": "An IoT device that gives the ability to lock &amp; unlock doors with a smartphone.",
-  "github": "https://github.com/smddzcy/WowDoor"
-}, {
-  "name": "EngelsizMenu",
-  "description": "Accessible, easy-to-use restaurant menu app for visually impaired.",
-  "github": "https://github.com/smddzcy/EngelsizMenu"
-}, {
-  "name": "IlanTakip",
-  "description": "Automatic tracking system for some real-estate listing sites in Turkey.",
-  "github": "https://github.com/smddzcy/ilanTakip"
-}, {
-  "name": "dekrypt",
-  "description": "A command-line tool for automatic decryption/decipher of a number of encryption/cipher algorithms.",
-  "github": "https://github.com/smddzcy/dekrypt"
-}]
+  "name": "Data Analysis in Fundamental Sciences",
+  "description": "",
+  "github": "https://github.com/smddzcy/MATH388E"
+}] 

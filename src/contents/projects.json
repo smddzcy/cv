@@ -5,5 +5,11 @@
 }, {
   "name": "Data Analysis in Fundamental Sciences",
   "description": "",
-  "github": "https://github.com/smddzcy/MATH388E"
-}] 
+  "github": "https://github.com/turgayh/MATH388E"
+},
+{
+  "name" : "Web Scraping Project Using Python",
+  "description" : "",
+  "github" : "https://github.com/turgayh/web-scraping"
+}
+] 

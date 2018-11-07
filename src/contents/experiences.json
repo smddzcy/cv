@@ -1,32 +1,7 @@
-[{
-  "company": "Lisa AI",
-  "role": "Co-Founder",
-  "date": "09/2018 - Present",
-  "location": "Istanbul, Turkey",
-  "description": ""
-}, {
-  "company": "Pisano",
-  "role": "Lead Software Engineer",
-  "date": "09/2017 - Present",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Designed the architecture of, built, and deployed Pisano Analytics.",
-    "Organized the first Pisano Hackathon. (https://hackathon.pisano.co/)",
-    "Led the web product team for 5 months. Designed the new architecture of <a href=\"https://www.pisano.co/en/widget-channels/\" rel=\"nofollow\" target=\"_blank\">Pisano Web Widget</a> and built most of the production system.",
-    "Extensively used ES6/ES7, React, Redux, Redux-Saga."
-  ]
-}, {
-  "company": "Google",
-  "role": "Software Engineering Intern",
-  "date": "06/2017 - 09/2017",
-  "location": "Zürich, Switzerland",
-  "description_bullets": [
-    "Built and tested the backend of a mid-size product feature.",
-    "Built a pipeline to collect user statistics and do data analysis."
-  ]
-}, {
-  "company": "Pisano",
-  "role": "Software Engineer",
+[  
+{
+  "company": "ITU Cekirdek",
+  "role": "Web Developer",
   "date": "06/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [

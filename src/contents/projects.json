@@ -10,12 +10,12 @@
   "name": "BounCoursePlanner",
   "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule for a set of courses, which has the least conflicts and most free hours.",
   "github": "https://github.com/smddzcy/BounCoursePlanner",
-  "link": "http://www.smddzcy.com/BounCoursePlanner/"
+  "link": "https://smddzcy.com/BounCoursePlanner/"
 }, {
   "name": "BUEvents",
   "description": "Events calendar for Boğaziçi University. It's the only events calendar since there isn't any official one.",
   "github": "https://github.com/smddzcy/BUEvents",
-  "link": "http://www.smddzcy.com/BUEvents/"
+  "link": "https://smddzcy.com/BUEvents/"
 }, {
   "name": "BUYemek",
   "description": "An iOS app for Boğaziçi University's cafeteria. There is also a separate project for its <a href=\"https://github.com/smddzcy/BUYemek\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">REST API</a>.",

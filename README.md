@@ -5,7 +5,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 [![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE)
 
-A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
+A simple, modern CV / resume template. Click [here](https://smddzcy.com/cv/) to see an example.
 
 ## Creating Your CV
 
@@ -39,7 +39,7 @@ If you want it in the PDF format, you can print the page as a PDF from your brow
     },
     "personal_site": {
       "title": "smddzcy.com",
-      "url": "http://www.smddzcy.com/"
+      "url": "https://smddzcy.com/"
     },
     "github": {
       "title": "github.com/smddzcy",
@@ -132,7 +132,7 @@ As you can see, **HTML is allowed inside description values**.
     "name": "BounCoursePlanner",
     "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule, which has the less conflicts and most free hours they want.",
     "github": "https://github.com/smddzcy/BounCoursePlanner",
-    "link": "http://www.smddzcy.com/BounCoursePlanner/"
+    "link": "https://smddzcy.com/BounCoursePlanner/"
   }, {
     ...
   }]

@@ -1,18 +1,32 @@
 [{
+  "company": "Infoset Software",
+  "role": "Software Engineer",
+  "date": "07/2016 - Present",
+  "location": "Istanbul, Turkey",
+  "description_bullets": [
+    "Developed and still maintaining Infoset Web Chat (<a href=\"https://cloud.infoset.com.tr\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">https://cloud.infoset.com.tr</a>).",
+    "Developed and maintained the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">infomessage</a>.",
+    "Responsible for the development of company websites: http://www.infomsg.com, http://www.infoset.com.tr, https://cloud.infoset.com.tr and more.",
+    "Did both on-page and off-page SEO, got the company websites on the first page of Google for competitive keywords."
+  ]
+}, {
   "company": "Lisa AI",
   "role": "Co-Founder",
-  "date": "09/2018 - Present",
+  "date": "09/2018 - 02/2019",
   "location": "Istanbul, Turkey",
-  "description": ""
+  "description_bullets": [
+    "Built parts of the mobile app of Lisa (with React Native). ",
+    "Built parts of the backend architecture and big-data infrastructure using Hadoop, HBase, Phoenix, Spark."
+  ]
 }, {
   "company": "Pisano",
   "role": "Lead Software Engineer",
-  "date": "09/2017 - Present",
+  "date": "09/2017 - 11/2018",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Designed the architecture of, built, and deployed Pisano Analytics.",
+    "Designed the architecture of, built (with Scala), and deployed Pisano Analytics.",
     "Organized the first Pisano Hackathon. (https://hackathon.pisano.co/)",
-    "Led the web product team for 5 months. Designed the new architecture of <a href=\"https://www.pisano.co/en/widget-channels/\" rel=\"nofollow\" target=\"_blank\">Pisano Web Widget</a> and built most of the production system.",
+    "Led the web product team for 5 months. Designed the new architecture of <a href=\"https://www.pisano.co/en/widget-channels/\" rel=\"nofollow noopener noreferrer\" target=\"_blank\">Pisano Web Widget</a> and built most of the production system.",
     "Extensively used ES6/ES7, React, Redux, Redux-Saga."
   ]
 }, {
@@ -33,16 +47,6 @@
     "Full-stack web development using Ruby on Rails, AngularJS, CoffeeScript, HTML5, LESS.",
     "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
     "Built, tested and successfully launched the key web product Pisano Web Widget."
-  ]
-}, {
-  "company": "Infoset Software",
-  "role": "Software Engineer",
-  "date": "07/2016 - 06/2017",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Developed and maintained the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\" rel=\"nofollow\">infomessage</a>.",
-    "Was responsible for the frontend development of 2 company websites: <a href=\"http://www.infomsg.com\" target=\"_blank\" rel=\"nofollow\">http://www.infomsg.com</a> and <a href=\"http://www.infoset.com.tr\" target=\"_blank\" rel=\"nofollow\">http://www.infoset.com.tr</a>",
-    "Did both on-page and off-page SEO, got the company websites on the first page of Google for competitive keywords."
   ]
 }, {
   "company": "Boğaziçi University Entrepreneurship Center",

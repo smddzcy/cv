@@ -18,7 +18,7 @@
   "link": "http://www.smddzcy.com/BUEvents/"
 }, {
   "name": "BUYemek",
-  "description": "An iOS app for Boğaziçi University's cafeteria. There is also a separate project for its <a href=\"https://github.com/smddzcy/BUYemek\" target=\"_blank\" rel=\"nofollow\">REST API</a>.",
+  "description": "An iOS app for Boğaziçi University's cafeteria. There is also a separate project for its <a href=\"https://github.com/smddzcy/BUYemek\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">REST API</a>.",
   "github": "https://github.com/smddzcy/BUYemek-iOS"
 }, {
   "name": "SkateMate",

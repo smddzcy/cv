@@ -1,8 +1,13 @@
 [{
   "name": "Boğaziçi University",
+  "degree": "M.S. Computer Engineering",
+  "date": "09/2019 - Present",
+  "description": ""
+}, {
+  "name": "Boğaziçi University",
   "degree": "B.S. Computer Engineering",
   "date": "09/2015 - 06/2019",
-  "description": "GPA: 3.80. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>. Founding member of BÜGAK (Boğaziçi University Futurism Club)."
+  "description": "GPA: 3.80. Rank in class: 2nd out of 100+ students. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>. Founding member of BÜGAK (Boğaziçi University Futurism Club)."
 }, {
   "name": "The University of Texas at Austin",
   "degree": "B.S. Computer Science",

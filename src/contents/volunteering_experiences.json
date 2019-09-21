@@ -1,5 +1,11 @@
 [
-{name = "sdasdsa",
-description = "dasdas"
+{
+    "Orgazination": "Toplum Gonulluleri",
+    "Role" : "Coordinator",
+    "description" : 
+    [
+        "Prepared and led meeting between volunteers",
+        "To manage communication between volunteer and community"
+    ]
 }
 ]

@@ -1,33 +1,6 @@
 [{
-  "title": "Ford Otosan OpenXC Hackathon - 3rd Place",
-  "date": "11/2017",
-  "description": "There were 26 teams. We built <a href=\"https://github.com/smddzcy/ford-copilot/\" target=\"_blank\" rel=\"nofollow\">a real-time data analysis application for cars</a>, that detects potential car crashes and sends emergency texts, shows the cheapest nearby gas stations with their gas efficiencies, shows the speed limits of your road and so on."
-},{
-  "title": "Invent & COMPEC Data Analytics Hackathon - 3rd Place",
-  "date": "05/2017",
-  "description": "There were 20 teams. I <a href=\"https://github.com/smddzcy/InventCompecHackathon2017\" target=\"_blank\" rel=\"nofollow\">built, tested and deployed 3 ML models</a> - neural network, multinomial logistic regression and multivariate linear regression - using TensorFlow to forecast sales quantities of a company using its 2 years of data."
-}, {
-  "title": "TechSummit IBM Hackathon 2017 - 1st Place",
-  "date": "02/2017",
-  "description": "There were 11 teams. We built <a href=\"https://github.com/smddzcy/hackathon-techsummit-2017\" target=\"_blank\" rel=\"nofollow\">a smart bracelet for preventing harassment</a> and I was responsible for the backend (Node.js), machine learning (TensorFlow), and whole web application (Pug & Bootstrap)."
-}, {
-  "title": "Comodo Hackathon - 1st Place",
-  "date": "12/2016",
-  "description": "There were 16 teams. We built <a href=\"https://github.com/smddzcy/Wower\" target=\"_blank\" rel=\"nofollow\">Wower</a>, and I was responsible for the development of the desktop app (Electron, Node.js, AngularJS) and its RESTful API (Ruby on Rails)."
-}, {
-  "title": "UNFPA Innovation Day Project - 2nd Place",
-  "date": "06/2016",
-  "description": "We made a project called \"Goodwill Ambassadors\" that used micro-influencers to help spread the ideas of United Nations Population Fund."
-}, {
-  "title": "Büyük Sıçrama IOT Hackathon - 1st Place",
-  "date": "05/2016",
-  "description": "There were more than 20 teams. We built <a href=\"https://github.com/smddzcy/WowDoor\" target=\"_blank\" rel=\"nofollow\">WowDoor</a> and I was responsible for the backend API (serverless architecture with Microsoft Azure)."
-}, {
-  "title": "TechSummit Hackathon 2016 - 2nd Place",
-  "date": "04/2016",
-  "description": "There were nearly 10 teams. I've built a mail classifier that uses Naive Bayes algorithm."
-}, {
-  "title": "COMPEC Garaj Hackathon - 1st Place",
-  "date": "11/2015",
-  "description": "There were nearly 10 teams. We built a <a href=\"https://github.com/smddzcy/ESETGuvenlikOyunu\" target=\"_blank\" rel=\"nofollow\">simple game</a> to give people some knowledge about online information security."
-}]
+  "title": "Facebook Developer Circle BuildDays Hackathon - 1rd Place",
+  "date": "06/2019",
+  "description": "There were 8 teams. We built <a href=\"https://devpost.com/software/manually\" target=\"_blank\" rel=\"nofollow\"> </a>"
+}
+]

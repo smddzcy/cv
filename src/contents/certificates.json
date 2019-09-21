@@ -7,5 +7,15 @@
     "title": "C Programming Language",
     "authority" :"C ve Sistem Programcilari Dernegi",
     "date" : "02/2015"
+  },
+  {
+    "title": "TechSummit Koc University",
+    "authority" :"KOC IEEE",
+    "date" : "02/2017"
+  },
+  {
+    "title": "Inzva Algorithm Camp 15 week",
+    "authority" :"INZVA BEV Foundation",
+    "date" : "03/2019"
   }
 ]

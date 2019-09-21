@@ -5,27 +5,20 @@
   "date": "06/2016 - 06/2017",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Full-stack web development using Ruby on Rails, AngularJS, CoffeeScript, HTML5, LESS.",
+    "Integrating data from various back-end services and database"
+  ]
+},
+{
+  "company": "INTERTECH",
+  "role": "Parttime Software Development",
+  "date": "02/2019 - present",
+  "location": "Istanbul, Turkey",
+  "description_bullets": [
+    "Full-stack web development using ASP.NET Core, ReactJS , SQLServer and CI tools",
     "Worked in a team-based development environment using agile methodologies like Kanban and Scrum.",
-    "Built, tested and successfully launched the key web product Pisano Web Widget."
+    "Built, tested and successfully launched the key web product Intertech DataManagement Project",
+    "In analyses based on performance test tool like Gatling , Locust, and  Jmeter "
   ]
-}, {
-  "company": "Infoset Software",
-  "role": "Software Engineer",
-  "date": "07/2016 - 06/2017",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Developed and maintained the email marketing platform <a href=\"http://www.infomsg.com\" target=\"_blank\" rel=\"nofollow\">infomessage</a>.",
-    "Was responsible for the frontend development of 2 company websites: <a href=\"http://www.infomsg.com\" target=\"_blank\" rel=\"nofollow\">http://www.infomsg.com</a> and <a href=\"http://www.infoset.com.tr\" target=\"_blank\" rel=\"nofollow\">http://www.infoset.com.tr</a>",
-    "Did both on-page and off-page SEO, got the company websites on the first page of Google for competitive keywords."
-  ]
-}, {
-  "company": "Boğaziçi University Entrepreneurship Center",
-  "role": "Development Team Leader",
-  "date": "09/2016 - 06/2017",
-  "location": "Istanbul, Turkey",
-  "description_bullets": [
-    "Was in charge of a team of 6 people.",
-    "Built and deployed the new web application of the entrepreneurship center called \"Bright\" using PHP (Laravel) and JS (ES6)."
-  ]
-}]
+}
+
+]

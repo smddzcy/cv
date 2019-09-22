@@ -1,0 +1,54 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js grunt
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/hakan/Desktop/cv/package.json: Unexpected token } in JSON at position 164
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.17.3/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "cv",
+    "version": "1.0.0",
+    "description": "A simple, modern CV / resume template.",
+    "scripts": {
+      "dev": "grunt",
+      "build": "grunt build",
+    },
+    "devDependencies": {
+      "eslint": "^3.19.0",
+      "eslint-config-google": "^0.7.1",
+      "grunt": "^0.4.5",
+      "grunt-autoprefixer": "^3.0.4",
+      "grunt-bake": "^1.7.2",
+      "grunt-cli": "^1.3.2",
+      "grunt-contrib-clean": "^1.1.0",
+      "grunt-contrib-copy": "^1.0.0",
+      "grunt-contrib-cssmin": "^1.0.1",
+      "grunt-contrib-less": "^1.4.1",
+      "grunt-contrib-watch": "^0.6.1",
+      "grunt-open": "^0.2.3",
+      "grunt-serve": "^0.1.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

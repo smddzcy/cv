@@ -5,7 +5,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 [![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE)
 
-A simple, modern CV / resume template. Click [here](http://www.smddzcy.com/cv/) to see an example.
+A simple, modern CV / resume template. Click [here](https://smddzcy.com/cv/) to see an example.
 
 ## Creating Your CV
 
@@ -29,28 +29,29 @@ If you want it in the PDF format, you can print the page as a PDF from your brow
 ### personal_info.json
 ```
   {
-    "name": "Hakan Turgay",
-    "profession": "Software Engineering",
+    "name": "Samed Düzçay",
+    "profession": "Software Engineer",
     "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-    "mail": "hakantrg@outlook.com",
+    "mail": "samedduzcay@gmail.com",
     "address": {
-      "title": " Istanbul, TURKEY"
+      "title": "Şişli, Istanbul, TURKEY",
+      "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"
     },
     "personal_site": {
-      "title": "",
-      "url": ""
+      "title": "smddzcy.com",
+      "url": "https://smddzcy.com/"
     },
     "github": {
-      "title": "github.com/turgayh",
-      "url": "https://github.com/turgayh"
+      "title": "github.com/smddzcy",
+      "url": "https://github.com/smddzcy"
     },
     "linkedin": {
-      "title": "linkedin.com/in/hakan-turgay",
-      "url": "https://www.linkedin.com/in/hakan-turğay"
+      "title": "linkedin.com/in/smddzcy",
+      "url": "https://www.linkedin.com/in/smddzcy"
     },
     "hackerrank": {
-      "title": "hackerrank.com/hakantrg1",
-      "url": "https://www.hackerrank.com/hakantrg1"
+      "title": "hackerrank.com/smddzcy",
+      "url": "https://www.hackerrank.com/smddzcy"
     },
     "google_analytics": "UA-11122333-4"
   }
@@ -68,12 +69,12 @@ Every field is optional, except `name` and `profession`. Also, you can include a
 ### experiences.json
 ```
 [{
-  "company": "ITU Cekirdek",
-  "role": "Web Developer",
-  "date": "07/2015 - 09/2015",
+  "company": "Pisano",
+  "role": "Software Engineer",
+  "date": "06/2016 - Present",
   "location": "Istanbul, Turkey",
   "description_bullets": [
-    "Full-stack web development using modern technologies: HTML5, LESS, AngularJS",
+    "Full-stack web development using modern technologies: HTML5, LESS, AngularJS, CoffeeScript, Ruby on Rails.",
     "Working in a team-based development environment using agile methodologies like Kanban and Scrum."
   ]
 }, {
@@ -131,7 +132,7 @@ As you can see, **HTML is allowed inside description values**.
     "name": "BounCoursePlanner",
     "description": "Course schedule planner for Boğaziçi University students. Finds the best schedule, which has the less conflicts and most free hours they want.",
     "github": "https://github.com/smddzcy/BounCoursePlanner",
-    "link": "http://www.smddzcy.com/BounCoursePlanner/"
+    "link": "https://smddzcy.com/BounCoursePlanner/"
   }, {
     ...
   }]

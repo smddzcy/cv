@@ -4,12 +4,12 @@
   "github": "https://github.com/turgayh/cv"
 }, {
   "name": "Data Analysis in Fundamental Sciences",
-  "description": "",
+  "description": "Using fundemantel of ML algorithm and implement on specific data",
   "github": "https://github.com/turgayh/MATH388E"
 },
 {
   "name" : "Web Scraping Project Using Python",
-  "description" : "",
+  "description" : "A basic web scraping template ",
   "github" : "https://github.com/turgayh/web-scraping"
 }
 ] 

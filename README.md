@@ -5,7 +5,7 @@
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
 [![MIT License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/smddzcy/cv/master/LICENSE)
 
-A simple, modern CV / resume template. Click [here](https://smddzcy.com/cv/) to see an example.
+A simple, modern CV / resume template. Click [here](https://turgayh.github.io/) to see an example.
 
 ## Creating Your CV
 
@@ -29,10 +29,10 @@ If you want it in the PDF format, you can print the page as a PDF from your brow
 ### personal_info.json
 ```
   {
-    "name": "Samed Düzçay",
+    "name": "Hakan Turgay",
     "profession": "Software Engineer",
     "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-    "mail": "samedduzcay@gmail.com",
+    "mail": "hakantrg@gmail.com",
     "address": {
       "title": "Şişli, Istanbul, TURKEY",
       "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"

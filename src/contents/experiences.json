@@ -1,10 +1,17 @@
 [{
   "company": "Infoset",
   "role": "Co-Founder",
-  "date": "08/2019 - Present",
+  "date": "01/2020 - Present",
   "location": "Istanbul, Turkey",
   "description_bullets": [
     "Building advanced communication and marketing solutions for businesses: <a href=\"https://infoset.app/\" target=\"_blank\" title=\"cloud call center, sales management, customer support\">https://infoset.app/</a>"
+  ]
+}, {
+  "company": "Freelance",
+  "role": "Software Engineer",
+  "date": "02/2019 - 01/2020",
+  "description_bullets": [
+    "Helped numerous companies including Christian Dior, L'Oreal, EasyKnock as a contractor software engineer / software architect."
   ]
 }, {
   "company": "Lisa AI",

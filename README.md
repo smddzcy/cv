@@ -29,29 +29,29 @@ If you want it in the PDF format, you can print the page as a PDF from your brow
 ### personal_info.json
 ```
   {
-    "name": "Samed Düzçay",
-    "profession": "Software Engineer",
-    "summary": "A confident, self-motivated and self-taught software engineer with 5 years of experience in back-end and front-end web development. A deep researcher and a passionate learner in every aspect of his life, with good analytical and verbal skills.",
-    "mail": "samedduzcay@gmail.com",
+    "name": "Full Name",
+    "profession": "Title",
+    "summary": "Profile Summary",
+    "mail": "...@gmail.com",
     "address": {
-      "title": "Şişli, Istanbul, TURKEY",
-      "url": "https://www.google.com/maps/place/Şişli,+19+Mayıs,+34360+Şişli%2Fİstanbul,+Turkey/@41.0602771,28.9790232,15z/data=!3m1!4b1!4m5!3m4!1s0x14cab71b4b2a7585:0x8f4cb3b604ac157f!8m2!3d41.060278!4d28.987778"
+      "title": "",
+      "url": "https://www.google.com/maps/place/..."
     },
     "personal_site": {
-      "title": "smddzcy.com",
-      "url": "https://smddzcy.com/"
+      "title": "abc.com",
+      "url": "https://abc.com/"
     },
     "github": {
-      "title": "github.com/smddzcy",
-      "url": "https://github.com/smddzcy"
+      "title": "github.com/abc",
+      "url": "https://github.com/abc"
     },
     "linkedin": {
-      "title": "linkedin.com/in/smddzcy",
-      "url": "https://www.linkedin.com/in/smddzcy"
+      "title": "linkedin.com/in/abc",
+      "url": "https://www.linkedin.com/in/abc"
     },
     "hackerrank": {
-      "title": "hackerrank.com/smddzcy",
-      "url": "https://www.hackerrank.com/smddzcy"
+      "title": "hackerrank.com/abc",
+      "url": "https://www.hackerrank.com/abc"
     },
     "google_analytics": "UA-11122333-4"
   }
@@ -106,7 +106,7 @@ Or you can use both, it's up to you.
     "name": "Boğaziçi University",
     "degree": "B.S. Computer Engineering",
     "date": "09/2015 - Present",
-    "description": "GPA: 3.67/4. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>."
+    "description": "GPA: 3.8/4. Member of <a href=\"http://compec.boun.edu.tr/\" target=\"_blank\">COMPEC (Boğaziçi University IT Club)</a> and <a href=\"http://www.budak.boun.edu.tr\" target=\"_blank\">BÜDAK (Boğaziçi University Mountaineering Club)</a>."
   }, {
     ...
   }]
